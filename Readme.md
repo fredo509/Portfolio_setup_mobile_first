@@ -2,7 +2,7 @@
 <a name="readme-top"></a>
 <div align="center">
   
-  <img src="projectLogo.png" alt="logo" width="140"  height="auto"/>
+  <img src="projectLogo.png" alt="logo" width="340"  height="auto"/>
   <br/>
 
   <h3><b>Portfolio Setup Mobile first</b></h3>
