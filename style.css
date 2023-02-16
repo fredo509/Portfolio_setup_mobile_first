@@ -77,6 +77,24 @@
     color: #344563;
     margin: 0 5%;
     position: relative;
+  }
 
+  .media-connect {
+    display: flex;
+    flex-direction: column; 
+    margin: 2% 5%;
+    
+
+  }
+
+  .media-connect p {
+    width: 60%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+    line-height: 24px;
+    color: #7F8CFF;
+    position: relative;
   }
 }
