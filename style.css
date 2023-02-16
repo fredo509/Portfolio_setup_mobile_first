@@ -28,16 +28,16 @@
     font-weight: 700;
     font-size: 200%;
     line-height: 20px;
-    padding: 0% 5%;
+	padding: 0% 5%;
   }
 
   .menu-icon {
     width: 12%;
   }
 
-  /* section 2 */ 
-	
-	.presentation {
+  /* section 2 */
+  
+  .presentation {
     background-image: url("headerBackground.svg");
     background-repeat: no-repeat;
     background-size: cover;
