@@ -58,6 +58,8 @@
 
 
 - **[Display_Personel_information]**
+- **["Responsive_mobile_min-width-375px]**
+- **["Responsive_desktop_min-width-768px]**
 
 
 
