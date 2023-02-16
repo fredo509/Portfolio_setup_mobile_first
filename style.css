@@ -4,21 +4,21 @@
 
 @media screen and (min-width: 768px) {
   body {
-	  margin: 0;
- 	  padding: 0;
+    margin: 0;
+    padding: 0;
   }
 
   #header {
-  	width: 100%;
-  	height: 70vh;
+    width: 100%;
+    height: 70vh;
   }
 
   .head {
-	  display: flex;
-  	width: 100%;
-  	justify-content: space-between;
-  	align-items: center;
-  	position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
   }
 
   #logo {
@@ -28,7 +28,7 @@
     font-weight: 700;
     font-size: 200%;
     line-height: 20px;
-	  padding: 0% 5%;
+    padding: 0% 5%;
   }
 
   .menu-icon {
@@ -36,7 +36,7 @@
   }
 
   /* section 2 */
-  
+
   .presentation {
     background-image: url("headerBackground.svg");
     background-repeat: no-repeat;
@@ -46,8 +46,8 @@
     width: 100%;
     flex-direction: column;
   }
-  
-	.greeting {
+
+  .greeting {
     width: 30%;
     height: 200px;
     font-family: 'time', sans-serif;
@@ -85,7 +85,7 @@
     width: 60%;
     font-family: 'sans-serif', sans-serif;
     font-style: normal;
-    font-weight: 500; 
+    font-weight: 500;
     font-size: 1.3em;
     line-height: 24px;
     color: #7f8cff;
@@ -128,7 +128,7 @@
 
   #logo {
     height: 20px;
-    font-family:'nabla', cursive;
+    font-family: 'nabla', cursive;
     font-style: normal;
     font-weight: 700;
     font-size: 200%;
@@ -139,19 +139,19 @@
   .menu-icon {
     width: 12%;
   }
-	
-	/* section 2 */
-  
-	.presentation {
+
+  /* section 2 */
+
+  .presentation {
     background-image: url("headerBackground.svg");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
     display: flex;
     width: 100%;
     flex-direction: column;
   }
-	
+
   .greeting {
     width: 45%;
     height: 200px;
@@ -192,15 +192,15 @@
     width: 60%;
     font-family: 'sans-serif', sans-serif;
     font-style: normal;
-    font-weight: 500; 
+    font-weight: 500;
     font-size: 1.3em;
     line-height: 24px;
     color: #7f8cff;
     position: relative;
     margin-top: 7%;
   }
-	
-	.media-list { 
+
+  .media-list {
     width: 40%;
     height: 50px;
     display: flex;
@@ -209,8 +209,8 @@
     margin-top: -6%;
   }
 
-  .media-link img { 
+  .media-link img {
     width: 90%;
   }
-  
+
 }
