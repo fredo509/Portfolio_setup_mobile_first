@@ -69,7 +69,7 @@
 
 
 
-- [Live Demo Link](https://fredo509.github.io/PORTFOLIO_SETUP_MOBILE_FIRST/)
+- [Live Demo Link](https://fredo509.github.io/Portfolio_setup_mobile_first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +96,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  gh repo clone fredo509/PORTFOLIO_SETUP_MOBILE_FIRST
+  gh repo clone fredo509/Portfolio_setup_mobile_first
 ```
 
 
