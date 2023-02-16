@@ -158,7 +158,7 @@
   .greeting {
     width: 50%;
     height: 200px;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 3.4em;
