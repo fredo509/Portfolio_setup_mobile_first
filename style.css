@@ -4,8 +4,8 @@
 
 @media screen and (min-width: 768px) {
   body {
-	margin: 0;
- 	padding: 0;
+	  margin: 0;
+ 	  padding: 0;
   }
 
   #header {
@@ -14,8 +14,8 @@
   }
 
   .head {
-	display: flex;
- 	width: 100%;
+	  display: flex;
+  	width: 100%;
   	justify-content: space-between;
   	align-items: center;
   	position: relative;
@@ -28,7 +28,7 @@
     font-weight: 700;
     font-size: 200%;
     line-height: 20px;
-	padding: 0% 5%;
+	  padding: 0% 5%;
   }
 
   .menu-icon {
@@ -212,4 +212,5 @@
   .media-link img { 
     width: 90%;
   }
+  
 }
