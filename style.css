@@ -4,21 +4,21 @@
 
 @media screen and (min-width: 768px) {
   body {
-  margin: 0;
-  padding: 0;
+  	margin: 0;
+ 		padding: 0;
   }
 
   #header {
-  width: 100%;
-  height: 70vh;
+  	width: 100%;
+  	height: 70vh;
   }
 
   .head {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+		display: flex;
+ 	 	width: 100%;
+  	justify-content: space-between;
+  	align-items: center;
+  	position: relative;
   }
 
   #logo {
@@ -34,8 +34,9 @@
   .menu-icon {
     width: 12%;
   }
-  /* section 2 */ 
 
+  /* section 2 */ 
+	
 	.presentation {
     background-image: url("headerBackground.svg");
     background-repeat: no-repeat;
@@ -105,6 +106,7 @@
 }
 
 /* minimum mobile size 375px */
+
 @media screen and (min-width: 375px) {
   body {
     margin: 0;
@@ -197,8 +199,8 @@
     position: relative;
     margin-top: 7%;
   }
-
-  .media-list {
+	
+	.media-list {
     width: 40%;
     height: 50px;
     display: flex;
