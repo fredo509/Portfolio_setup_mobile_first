@@ -179,6 +179,7 @@
     margin-left: 5%;
     position: relative;
     margin-bottom: 3%;
+    overflow-x: scroll;
   }
 
   .media-connect {
