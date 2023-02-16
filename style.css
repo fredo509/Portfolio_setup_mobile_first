@@ -170,22 +170,22 @@
 
   .self-description {
     width: 75%;
-    height: 146px;
+    height: 200px;
     font-style: normal;
     font-weight: 400;
     font-size: 1.2em;
     line-height: 140%;
     color: #344563;
-    margin: 0 0 0% 5%;
+    margin-left: 5%;
     position: relative;
-    margin-top: -7%;
+    margin-bottom: 3%;
   }
 
   .media-connect {
     display: flex;
     flex-direction: column;
-    margin: 0% 5%;
-    margin-top: 8%;
+    margin: 3% 5%;
+    margin-top: 0;
   }
 
   .media-connect p {
@@ -197,7 +197,7 @@
     line-height: 24px;
     color: #7f8cff;
     position: relative;
-    margin-top: 7%;
+    margin-top: 0%;
   }
 
   .media-list {
@@ -206,7 +206,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -6%;
+    
   }
 
   .media-link img {
