@@ -27,7 +27,6 @@
     font-size: 200%;
     line-height: 20px;
     padding: 0% 5%;
-    
   }
 
   .menu-icon {
@@ -71,7 +70,6 @@
     color: #344563;
     margin: 0 0 0% 5%;
     position: relative;
-    
   }
 
   .media-connect {
@@ -103,5 +101,110 @@
     width: 170%;
   }
 }
+
 /* minimum mobile size 375px */
-@media screen and (min-width:375px) {}
+@media screen and (min-width:375px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #header {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .head {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  #logo {
+    height: 20px;
+    font-family:'nabla',cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 20px;
+    padding: 0% 5%;
+  }
+
+  .menu-icon {
+    width: 12%;
+  }
+  
+  /* section 2 */
+  .presentation {
+    background-image: url("headerBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .greeting {
+    width: 45%;
+    height: 200px;
+    font-family:'poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8em;
+    line-height: 60px;
+    display: block;
+    margin: 0% 5%;
+    margin-top: 20%;
+    align-items: center;
+    color: #172B4D;
+    position: relative;
+  }
+
+  .self-description {
+    width: 75%;
+    height: 146px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 140%;
+    color: #344563;
+    margin: 0 0 0% 5%;
+    position: relative;
+    margin-top: -7%;
+  }
+
+  .media-connect {
+    display: flex;
+    flex-direction: column; 
+    margin: 0% 5%;
+    margin-top: 8%;
+  }
+
+  .media-connect p {
+    width: 60%;
+    font-family: 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+    line-height: 24px;
+    color: #7F8CFF;
+    position: relative;
+    margin-top: 7%;
+  }
+
+  .media-list {
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -6%;
+  }
+
+  .media-link img{
+    width: 90%;
+  }
+}
