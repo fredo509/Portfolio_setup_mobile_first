@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins&display=swap');
-/* minimum desktop size 768px */
-@media screen and (min-width:768px){
+  /* minimum desktop size 768px */
+@media screen and (min-width:768px)	{
   body {
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@
 
   #logo {
     height: 20px;
-    font-family:'nabla',cursive;
+    font-family: 'nabla', cursive;
     font-style: normal;
     font-weight: 700;
     font-size: 200%;
@@ -33,7 +33,7 @@
     width: 12%;
   }
   
-  /* section 2 */
+	/* section 2 */
   .presentation {
     background-image: url("headerBackground.svg");
     background-repeat: no-repeat;
@@ -44,10 +44,10 @@
     flex-direction: column;
   }
   
-  .greeting {
+	.greeting {
     width: 30%;
     height: 200px;
-    font-family: 'time',;
+    font-family: 'time',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 2.4em;
@@ -56,7 +56,7 @@
     margin: 0% 5%;
     margin-top: 11%;
     align-items: center;
-    color: #172B4D;
+    color: #172b4d;
     position: relative;
   }
 
@@ -80,12 +80,12 @@
 
   .media-connect p {
     width: 60%;
-    font-family: 'sans-serif';
+    font-family: 'sans-serif', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.3em;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     position: relative;
   }
 
@@ -159,7 +159,7 @@
     margin: 0% 5%;
     margin-top: 20%;
     align-items: center;
-    color: #172B4D;
+    color: #172b4d;
     position: relative;
   }
 
@@ -185,12 +185,12 @@
 
   .media-connect p {
     width: 60%;
-    font-family: 'sans-serif';
+    font-family: 'sans-serif', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.3em;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     position: relative;
     margin-top: 7%;
   }
@@ -204,7 +204,7 @@
     margin-top: -6%;
   }
 
-  .media-link img{
+  .media-link img {
     width: 90%;
   }
 }
