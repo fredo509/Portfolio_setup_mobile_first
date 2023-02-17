@@ -74,7 +74,7 @@ body {
   .greeting {
     width: 80%;
     height: 150px;
-    margin: 128px 24px 24px 0;
+    margin: 100px 24px 24px 0;
     margin-left: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -201,7 +201,7 @@ body {
   .greeting {
     width: 53%;
     height: 150px;
-    margin: 130px 12px 24px 0;
+    margin: 160px 12px 24px 0;
     margin-left: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
