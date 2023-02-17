@@ -78,7 +78,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 23px;
     line-height: 52px;
     display: flex;
     align-items: center;
@@ -95,15 +95,15 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
     color: #344563;
   }
 
   .btn-mediaConnect {
-    width: 70%;
+    width: 40%;
     height: 24px;
-    margin: 0 24px 24px 24px;
+    margin: 0 24px 12px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -113,11 +113,27 @@ body {
     color: #7f8cff;
   }
 
-  .media-icon {
-    width: 40%;
-    height: 20px;
+  .media-list {
     position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
     margin-left: 24px;
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .media-link {
+    width: 17px;
+    height: 17px;
+  }
+
+  .media-icon {
+    width: 17px;
+    height: 17px;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -182,20 +198,19 @@ body {
   }
 
   .greeting {
-    width: 50%;
+    width: 43%;
     height: 150px;
-    margin: 130px 24px 24px 0;
+    margin: 130px 12px 24px 0;
     margin-left: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 52px;
     display: flex;
     align-items: center;
     color: #172b4d;
     position: relative;
-    flex-grow: 0;
   }
 
   .self-description {
@@ -214,7 +229,7 @@ body {
   .btn-mediaConnect {
     width: 30%;
     height: 24px;
-    margin: 0 24px 24px 24px;
+    margin: 0 24px 12px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -224,9 +239,26 @@ body {
     color: #7f8cff;
   }
 
-  .media-icon {
-    width: 30%;
-    height: 20px;
+  .media-list {
     position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .media-link {
+    width: 17px;
+    height: 17px;
+  }
+
+  .media-icon {
+    width: 17px;
+    height: 17px;
+    margin: 0;
+    padding: 0;
   }
 }
