@@ -43,11 +43,18 @@ body {
     line-height: 20px;
     text-align: center;
     color: #6070ff;
+    margin-left: -18px;
   }
 
   #menu-icon {
     width: 30%;
     height: 24px;
+  }
+
+  .menu-link{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
   }
 
   /* Main section Style */
