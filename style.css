@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nabla&family=Poppins&display=swap');
+
 body {
   padding: 0%;
   margin: 0%;
+  background-color: #f7f7f9;;
 }
 
 /* minimum mobile size 375px */
+
+
 
 @media screen and (min-width: 375px) {
   /* header style */
@@ -138,6 +142,8 @@ body {
   }
 }
 
+
+
 /* minimum desktop size 768px */
 
 @media screen and (min-width: 768px) {
@@ -262,4 +268,190 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  /* ====>Section project <====== */
+
+  #section-project {
+    margin-top: 0;
+    display:grid;
+    padding: 50px 24px;
+    grid-row-gap: 5%;
+    height: auto;
+    grid-template-columns: auto;
+  }
+
+  .details-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+    width: 327px;
+    height: auto;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .card-info {
+    width: 100%;
+  }
+
+  .project-image {
+    background-image: url('./images/project_1.svg');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-size: cover;
+    display: flex;
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+  }
+
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 100%;
+    height: 288px;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    overflow-y: hidden;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+  }
+
+  .project-title {
+    width: 20%;
+    height: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 0;
+    padding: 0;
+ color: #172B4D;
+  }
+
+  .client-info {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 10px;
+    width: 100%;   
+}
+
+  .client-info ul {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    align-items: center;
+  }
+
+  .client-info li {
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    padding-right: 12px;
+    color: #7a869a;
+  }
+
+  .canopy {
+    list-style: none;
+    width: 55px;
+    height: 16px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+  }
+
+
+  .client-name {
+    width: 55px;
+    height: 16px;
+font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+  }
+
+  .project-info {
+    width: 100%;
+    height: 76px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .project-tag ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    width: 53px;
+    height: 24px;
+    border-radius: 8px;
+    padding-left: 0;
+  }
+
+  .project-tag li {
+    margin-left: 0;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    width: 89px;
+    height: 24px;
+    color: #396df2;
+    border-radius: 8px;
+    background: #ebebff;
+  }
+    
+  .btn-project a {
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 12px;
+      justify-content: center;
+      gap: 10px;
+    font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 24px;
+      text-decoration: none;
+      width: 124px;
+      height: 48px;
+      border: 1px solid #6070ff;
+      border-radius: 8px;
+      color: #396df2;
+    }
+
 }
