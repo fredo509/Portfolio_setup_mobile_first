@@ -14,7 +14,6 @@ body {
     position: top;
     display: flex;
     padding: 3px;
-    display: flex;
     align-items: center;
   }
 
@@ -86,7 +85,7 @@ body {
     width: 70%;
     height: 146px;
     position: relative;
-    margin: 0px 24px 24px 24px;
+    margin: 0 24px 24px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -98,14 +97,14 @@ body {
   .btn-mediaConnect {
     width: 70%;
     height: 24px;
-    margin: 0px 24px 24px 24px;
+    margin: 0 24px 24px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
     line-height: 24px;
-    color: #7F8cff;
+    color: #7f8cff;
   }
 
   .media-icon {
@@ -127,7 +126,6 @@ body {
     position: top;
     display: flex;
     padding: 3px;
-    display: flex;
     align-items: center;
   }
 
@@ -199,7 +197,7 @@ body {
     width: 45%;
     height: 146px;
     position: relative;
-    margin: 0px 24px 24px 24px;
+    margin: 0 24px 24px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -211,14 +209,14 @@ body {
   .btn-mediaConnect {
     width: 30%;
     height: 24px;
-    margin: 0px 24px 24px 24px;
+    margin: 0 24px 24px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
     line-height: 24px;
-    color: #7F8cff;
+    color: #7f8cff;
   }
 
   .media-icon {
