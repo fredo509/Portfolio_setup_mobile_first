@@ -6,7 +6,6 @@ body {
 /* minimum mobile size 375px */
 
 @media screen and (min-width: 375px) {
-
   /* header style */
 
   #header {
@@ -118,7 +117,6 @@ body {
 /* minimum desktop size 768px */
 
 @media screen and (min-width: 768px) {
-
   /* header style */
 
   #header {
