@@ -117,9 +117,8 @@ body {
 /* minimum desktop size 768px */
 
 @media screen and (min-width: 768px) {
-  
   /* header style */
-
+  
   #header {
     height: 7vh;
     position: top;
@@ -225,5 +224,3 @@ body {
   }
 
 }
-
-
