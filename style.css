@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nabla&family=Poppins&display=swap');
 body {
   padding: 0%;
   margin: 0%;
@@ -71,9 +72,9 @@ body {
   }
 
   .greeting {
-    width: 70%;
+    width: 80%;
     height: 150px;
-    margin: 130px 24px 24px 0;
+    margin: 128px 24px 24px 0;
     margin-left: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -198,15 +199,15 @@ body {
   }
 
   .greeting {
-    width: 43%;
+    width: 53%;
     height: 150px;
     margin: 130px 12px 24px 0;
     margin-left: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 52px;
+    font-size: 33px;
+    line-height: 62px;
     display: flex;
     align-items: center;
     color: #172b4d;
