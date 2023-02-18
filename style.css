@@ -215,7 +215,7 @@ body {
     width: 100%;
   }
 
-  .client-info ul {
+  .role {
     display: flex;
     position: relative;
     justify-content: flex-start;
@@ -225,7 +225,7 @@ body {
     align-items: center;
   }
 
-  .client-info li {
+  .role li {
     margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -272,7 +272,7 @@ body {
     color: #344563;
   }
 
-  .project-tag ul {
+  .lang {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -283,7 +283,7 @@ body {
     padding-left: 0;
   }
 
-  .project-tag li {
+  .lang li {
     margin-left: 0;
     margin-right: 12px;
     display: flex;
@@ -382,7 +382,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .skill-list ul {
+  .talent {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -411,7 +411,7 @@ body {
     content: '\203A';
     font-size: 62px;
     margin-right: 24px;
-    color: #5E6c84;
+    color: #5e6c84;
 
     /* chevron */
   }
@@ -441,9 +441,7 @@ body {
     margin-top: 25px;
     color: #253858;
   }
-
 }
-
 
 /* minimum desktop size 768px */
 
@@ -612,7 +610,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
     gap: 12px;
     width: 100%;
     height: 288px;
@@ -646,7 +643,7 @@ body {
     width: 100%;
   }
 
-  .client-info ul {
+  .role {
     display: flex;
     position: relative;
     justify-content: flex-start;
@@ -656,7 +653,7 @@ body {
     align-items: center;
   }
 
-  .client-info li {
+  .role li {
     margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -703,7 +700,7 @@ body {
     color: #344563;
   }
 
-  .project-tag ul {
+  .lang {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -714,7 +711,7 @@ body {
     padding-left: 0;
   }
 
-  .project-tag li {
+  .lang li {
     margin-left: 0;
     margin-right: 12px;
     display: flex;
@@ -791,8 +788,6 @@ body {
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -811,7 +806,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .skill-list ul {
+  .talent {
     list-style: none;
     margin: 0;
     padding: 0;
