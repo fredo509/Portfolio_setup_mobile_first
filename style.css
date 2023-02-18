@@ -150,6 +150,7 @@ body {
     padding: 50px 24px;
     grid-row-gap: 3%;
     height: auto;
+    justify-content: center;
     grid-template-columns: auto;
   }
 
@@ -321,9 +322,14 @@ body {
 
   #section-about {
     margin-top: 220px;
-    padding: 40px 24px;
     background-repeat: no-repeat;
     background-image: url('./images/about.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    padding-top: 40px;
   }
 
   .about-title {
@@ -355,7 +361,7 @@ body {
     align-items: center;
     padding: 12px;
     gap: 10px;
-    width: 45%;
+    width: 150px;
     height: 18px;
     border: 1px solid #6070ff;
     border-radius: 8px;
@@ -377,9 +383,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
     margin-top: 15px;
     margin-bottom: 20px;
+    width: 75%;
   }
 
   .talent {
@@ -391,7 +397,6 @@ body {
   .list-title {
     display: flex;
     justify-content: space-between;
-    width: 327px;
     height: 72px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -424,9 +429,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px;
-    width: 75%;
-    margin-top: 30px;
+    
+    
+    margin-top: 0px;
   }
 
   .list-item li {
@@ -438,7 +443,7 @@ body {
     line-height: 20px;
     display: flex;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 20px;
     color: #253858;
   }
 }
@@ -751,6 +756,7 @@ body {
     margin-top: 220px;
     padding: 40px 24px;
     background-repeat: no-repeat;
+    background-size: cover;
     background-image: url('./images/about.svg');
   }
 
