@@ -18,6 +18,7 @@ body {
     display: flex;
     padding: 3px;
     align-items: center;
+    background-color: #ffff;
   }
 
   #navigation {
@@ -72,6 +73,8 @@ body {
     background-position: top;
     display: flex;
     flex-direction: column;
+    background-color: #ffff;
+    border-radius: 0 0 0 115px;
   }
 
   .greeting {
@@ -151,6 +154,7 @@ body {
     position: top;
     display: flex;
     padding: 3px;
+    background-color: #ffff;
     align-items: center;
   }
 
@@ -199,6 +203,8 @@ body {
     background-position: top;
     display: flex;
     flex-direction: column;
+    background-color: #ffff;
+    border-radius: 0 0 0 115px;
   }
 
   .greeting {
@@ -266,10 +272,10 @@ body {
     padding: 0;
   }
 
-  /* ====>Section project <====== */
+  /* ====>Section project Part for review<====== */
 
   #section-project {
-    margin-top: 0;
+    margin-top: 70px;
     display: grid;
     padding: 50px 24px;
     grid-row-gap: 3%;
@@ -327,7 +333,7 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .client-info {
@@ -365,7 +371,7 @@ body {
     width: 55px;
     height: 16px;
     position: relative;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -448,9 +454,7 @@ body {
     padding: 40px 24px;
     background-repeat: no-repeat;
     background-image: url('./images/about.svg');
-
   }
-
 
   .about-title {
     width: 10%;
@@ -462,12 +466,10 @@ body {
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #172B4D;
+    color: #172b4d;
   }
 
-  .self-desc,
-  .connectm,
-  .listm {
+  .self-desc, .connectm, .listm {
     margin-left: 0;
   }
 
@@ -481,18 +483,88 @@ body {
     height: 18px;
     border: 1px solid #6070FF;
     border-radius: 8px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    /* identical to box height, or 141% */
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #396DF2;
+  }
+
+  /* List menu still */
+
+  .skill-list {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .skill-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .list-title {
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+    height: 72px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dfe1e6;
+    color: #000000;
+  }
+
+  .list-title::after {
+    margin-left: 1ch;
+    display: inline-block;
+    transition: 0.2s;
+    content: '\203A';
+    font-size: 62px;
+    margin-right: 24px;
+    color: #5E6C84;
+    /* chevron */
+  }
+
+  .list-container[open] .list-title::after {
+    transform: rotate(90deg);
+  }
+
+  .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    width: 75%;
+    margin-top: 30px;
+}
+
+  .list-item li {
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    color: #253858;
   }
 }
