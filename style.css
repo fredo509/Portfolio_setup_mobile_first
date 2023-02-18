@@ -786,7 +786,7 @@ body {
     gap: 10px;
     width: 20%;
     height: 18px;
-    border: 1px solid #6070FF;
+    border: 1px solid #6070ff;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -798,7 +798,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #396DF2;
+    color: #396df2;
   }
 
   /* List menu still */
