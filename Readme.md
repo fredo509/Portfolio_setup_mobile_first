@@ -5,7 +5,7 @@
   <img src="projectLogo.png" alt="logo" width="340"  height="auto"/>
   <br/>
 
-  <h3><b>Portfolio Setup Mobile first</b></h3>
+  <h3><b>Finish Portfolio Setup Mobile version</b></h3>
 </div>
 
 
@@ -29,7 +29,7 @@
 
 
 
-# 📖 [Portfolio_Setup_Mobile_frist] <a name="about-project"></a>
+# 📖 [Finish_Portfolio_Setup_Mobile_version] <a name="about-project"></a>
 
 
 
@@ -58,8 +58,10 @@
 
 
 - **[Display_Personel_information]**
-- **["Responsive_mobile_min-width-375px]**
-- **["Responsive_desktop_min-width-768px]**
+- **[Responsive_mobile_min-width-375px]**
+- **[Responsive_desktop_min-width-768px]**
+- **[Display-project-section]**
+- **[Display-aboutme-section]**
 
 
 
@@ -126,7 +128,7 @@ Example commands:
 
 
 
-- [ ] **[Add_project_section]**
+- [ ] **[Add_contact_me_section]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
