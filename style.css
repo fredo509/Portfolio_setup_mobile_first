@@ -9,8 +9,6 @@ body {
 
 /* minimum mobile size 375px */
 
-
-
 @media screen and (min-width: 375px) {
   /* header style */
 
@@ -142,8 +140,6 @@ body {
     padding: 0;
   }
 }
-
-
 
 /* minimum desktop size 768px */
 
@@ -423,15 +419,15 @@ body {
     color: #396df2;
     border-radius: 8px;
     background: #ebebff;
+    margin-bottom: 20px;
   }
 
   .btn-project a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 12px;
+    padding: 14px;
     justify-content: center;
-    gap: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -439,10 +435,64 @@ body {
     line-height: 24px;
     text-decoration: none;
     width: 124px;
-    height: 48px;
+    height: 24px;
     border: 1px solid #6070ff;
     border-radius: 8px;
     color: #396df2;
   }
 
+  /* about me section */
+
+  #section-about {
+    margin-top: 220px;
+    padding: 40px 24px;
+    background-repeat: no-repeat;
+    background-image: url('./images/about.svg');
+
+  }
+
+
+  .about-title {
+    width: 10%;
+    height: 101px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #172B4D;
+  }
+
+  .self-desc,
+  .connectm,
+  .listm {
+    margin-left: 0;
+  }
+
+  .btn-resume a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 20%;
+    height: 18px;
+    border: 1px solid #6070FF;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    /* identical to box height, or 141% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #396DF2;
+  }
 }
