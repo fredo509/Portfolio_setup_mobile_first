@@ -65,7 +65,7 @@ body {
 
   .presentation {
     width: 100%;
-    height: 92vh;
+    min-height: 100vh;
     background-image: url("./images/headerBackground.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -77,9 +77,9 @@ body {
   }
 
   .greeting {
-    width: 6%;
-    height: 150px;
-    margin: 100px 24px 24px 0;
+    width: 60%;
+    height: auto;
+    margin: 45px 24px 24px 0;
     margin-left: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -90,12 +90,11 @@ body {
     align-items: center;
     color: #172b4d;
     position: relative;
-    flex-grow: 0;
   }
 
   .self-description {
     width: 70%;
-    height: 146px;
+    height: auto;
     position: relative;
     margin: 0 24px 24px 24px;
     font-family: 'Poppins', sans-serif;
@@ -504,7 +503,7 @@ body {
 
   .presentation {
     width: 100%;
-    height: 92vh;
+    min-height: 100vh;
     background-image: url("./images/headerBackground.svg");
     background-repeat: no-repeat;
     background-size: 100%;
