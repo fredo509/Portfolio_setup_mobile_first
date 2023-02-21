@@ -494,7 +494,7 @@ body {
 
   .contact-title {
     color: white;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -502,12 +502,11 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    display: flex;
     margin-top: 50px;
   }
 
   .contact-desc {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -530,7 +529,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 85%;
-
   }
 
   .form-input {
@@ -538,7 +536,7 @@ body {
     margin-bottom: 24px;
     border-radius: 8px;
     padding-left: 15px;
-    color: rgba(179, 186, 197, 1)
+    color: rgba(179, 186, 197, 1);
   }
 
   .form-input:focus {
