@@ -459,11 +459,12 @@ body {
     background-repeat: no-repeat;
     background-size: 80%;
     background-color: #6070FF;
+    min-height: 100vh;
   }
 
   .contact-title {
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -474,13 +475,36 @@ body {
   }
 
   .contact-desc {
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     color: #EBEBFF;
+    padding: 0 24px;
+  }
+
+  .form {
+    width: 95%;
+    margin: 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .form-input {
+    height: 48px;
+    margin-bottom: 24px;
+  }
+
+  #form-commnt {
+    height: 170px;
   }
 }
 
