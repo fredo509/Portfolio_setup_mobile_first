@@ -556,11 +556,11 @@ body {
     margin-bottom: 24px;
     padding-left: 15px;
     padding-top: 15px;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: regular;
     font-size: 15px;
     line-height: 24px;
-    line-height: 107%; 
+    line-height: 107%;
     color: #b3bac5;
   }
 
