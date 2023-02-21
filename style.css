@@ -449,7 +449,41 @@ body {
     margin-top: 20px;
     color: #253858;
   }
+
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/contactMe-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-color: #6070FF;
+  }
+
+  .contact-title {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #EBEBFF;
+  }
 }
+
 
 /* minimum desktop size 768px */
 
