@@ -6,6 +6,28 @@ body {
   background-color: #f7f7f9;
 }
 
+.btn-project a:hover,
+.btn-submit:hover,
+.btn-resume a:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.btn-project a:active,
+.btn-submit:active,
+.btn-resume a:active {
+  background-color: #6070ff;
+  color: white;
+}
+
+.btn-project a:disabled,
+.btn-submit:disabled,
+.btn-resume a:disabled {
+  background-color: none;
+  color: gray;
+  border: 1px solid gray;
+}
+
 /* minimum mobile size 375px */
 
 @media screen and (min-width: 375px) {
@@ -332,6 +354,7 @@ body {
     justify-content: center;
     padding-left: 24px;
     padding-top: 40px;
+    padding-bottom: 170px;
   }
 
   .about-title {
@@ -450,16 +473,23 @@ body {
     color: #253858;
   }
 
+  /* contact me section */
+
   .contact-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: -30px;
     background-image: url("./images/contactMe-bg.svg");
     background-repeat: no-repeat;
-    background-size: 80%;
-    background-color: #6070FF;
+    background-size: 68%;
+    background-position: right top 40%;
+    background-color: #6070ff;
     min-height: 100vh;
+    margin-top: -80px;
+    border-radius: 115px 0 0 0;
+    padding-top: 100px;
   }
 
   .contact-title {
@@ -472,6 +502,8 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    display: flex;
+    margin-top: 50px;
   }
 
   .contact-desc {
@@ -481,28 +513,43 @@ body {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #EBEBFF;
+    color: #ebebff;
     padding: 0 24px;
+    margin-bottom: 5px;
   }
 
   .form {
-    width: 95%;
+    width: 100%;
     margin: 0 24px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .form form {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 85%;
 
   }
+
   .form-input {
     height: 48px;
     margin-bottom: 24px;
     border-radius: 8px;
     padding-left: 15px;
+    color: rgba(179, 186, 197, 1)
+  }
+
+  .form-input:focus {
+    border: 2px solid #396df2;
+    border-radius: 8px;
+    color: rgba(23, 43, 77, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: regular;
+    font-size: 17px;
+    line-height: 20px;
+    line-height: 78%;
   }
 
   #form-commnt {
@@ -511,6 +558,12 @@ body {
     margin-bottom: 24px;
     padding-left: 15px;
     padding-top: 15px;
+    font-family: 'Poppins' sans-serif;
+    font-style: regular;
+    font-size: 15px;
+    line-height: 24px;
+    line-height: 107%; 
+    color: #b3bac5;
   }
 
   .btn-submit {
@@ -534,10 +587,7 @@ body {
     color: #396df2;
     margin-bottom: 50px;
   }
-
-  
 }
-
 
 /* minimum desktop size 768px */
 
