@@ -9,23 +9,23 @@ body {
 .btn-project a:hover,
 .btn-submit:hover,
 .btn-resume a:hover {
-  background-color: #6070ff;
-  color: white;
+  background-color: rgba(64, 83, 252, 0.24);
+  color: rgba(255, 255, 255, 1);
 }
 
 .btn-project a:active,
 .btn-submit:active,
 .btn-resume a:active {
-  background-color: #6070ff;
-  color: white;
+  background-color: rgba(34, 48, 210, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .btn-project a:disabled,
 .btn-submit:disabled,
 .btn-resume a:disabled {
-  background-color: none;
-  color: gray;
-  border: 1px solid gray;
+  background-color: rgba(193, 199, 208, 1);
+  color: rgba(94, 108, 132, 1);
+  border: 1px solid rgba(94, 108, 132, 1);
 }
 
 /* minimum mobile size 375px */
@@ -163,7 +163,7 @@ body {
     padding: 0;
   }
 
-  /* ====>Section project Part for review<====== */
+  /* ====>Section project<====== */
 
   #section-project {
     margin-top: 70px;
@@ -480,10 +480,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: -30px;
     background-image: url("./images/contactMe-bg.svg");
     background-repeat: no-repeat;
-    background-size: 68%;
+    background-size: 60%;
     background-position: right top 40%;
     background-color: #6070ff;
     min-height: 100vh;
@@ -493,16 +492,18 @@ body {
   }
 
   .contact-title {
+    width: 100%;
+    justify-content: center;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 27px;
     display: flex;
+    line-height: 1px;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .contact-desc {
@@ -515,6 +516,7 @@ body {
     color: #ebebff;
     padding: 0 24px;
     margin-bottom: 5px;
+    margin-top: -15px;
   }
 
   .form {
@@ -568,22 +570,24 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-left: 18px;
+    padding-left: 13px;
     gap: 10px;
-    width: 150px;
+    width: 170px;
     height: 60px;
     border: 1px solid #6070ff;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 21px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #396df2;
     margin-bottom: 50px;
+    /* for hover,enabled,disabled etc go to line 9 to 28 */
+
   }
 }
 
@@ -1023,10 +1027,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: -30px;
     background-image: url("./images/contactMe-bg.svg");
     background-repeat: no-repeat;
-    background-size: 68%;
+    background-size: 60%;
     background-position: right top 40%;
     background-color: #6070ff;
     min-height: 100vh;
@@ -1036,16 +1039,18 @@ body {
   }
 
   .contact-title {
+    width: 100%;
+    justify-content: center;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 27px;
     display: flex;
+    line-height: 1px;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .contact-desc {
@@ -1058,6 +1063,7 @@ body {
     color: #ebebff;
     padding: 0 24px;
     margin-bottom: 5px;
+    margin-top: -15px;
   }
 
   .form {
@@ -1111,21 +1117,23 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-left: 18px;
+    padding-left: 13px;
     gap: 10px;
-    width: 150px;
+    width: 170px;
     height: 60px;
     border: 1px solid #6070ff;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 21px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #396df2;
     margin-bottom: 50px;
+    /* for hover,enabled,disabled etc go to line 9 to 28 */
+
   }
 }
