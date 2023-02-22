@@ -6,6 +6,28 @@ body {
   background-color: #f7f7f9;
 }
 
+.btn-project a:hover,
+.btn-submit:hover,
+.btn-resume a:hover {
+  background-color: rgba(64, 83, 252, 0.24);
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn-project a:active,
+.btn-submit:active,
+.btn-resume a:active {
+  background-color: rgba(34, 48, 210, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn-project a:disabled,
+.btn-submit:disabled,
+.btn-resume a:disabled {
+  background-color: rgba(193, 199, 208, 1);
+  color: rgba(94, 108, 132, 1);
+  border: 1px solid rgba(94, 108, 132, 1);
+}
+
 /* minimum mobile size 375px */
 
 @media screen and (min-width: 375px) {
