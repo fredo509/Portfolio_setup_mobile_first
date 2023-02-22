@@ -575,7 +575,7 @@ body {
     width: 170px;
     height: 60px;
     border: 1px solid #6070ff;
-    border-radius: 8px;
+    border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -904,6 +904,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('./images/about.svg');
+    padding-bottom: 170px;
   }
 
   .about-title {
@@ -1029,13 +1030,13 @@ body {
     align-items: center;
     background-image: url("./images/contactMe-bg.svg");
     background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: right top 40%;
+    background-size: 45%;
+    background-position: right top 100%;
     background-color: #6070ff;
     min-height: 100vh;
     margin-top: -80px;
     border-radius: 115px 0 0 0;
-    padding-top: 100px;
+    padding-top: 90px;
   }
 
   .contact-title {
@@ -1122,7 +1123,7 @@ body {
     width: 170px;
     height: 60px;
     border: 1px solid #6070ff;
-    border-radius: 8px;
+    border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
