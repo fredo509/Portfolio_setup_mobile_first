@@ -885,7 +885,7 @@ body {
 
 @media screen and (width > 768px) {
   /* header style */
-  
+
   .menu-link {
     display: none;
   }
@@ -923,6 +923,48 @@ body {
     color: #344563;
     text-decoration: none;
   }
+
+  /* presentation section  */
+
+  .presentation {
+    background-image: url('./images/deskHeader-bg.svg');
+    background-size: 100%;
+    background-position: left;
+
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .greeting {
+    text-align: left;
+    width: 60%;
+    min-height: 20vh;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 260px;
+  }
+
+  .self-description {
+    margin-bottom: 15px;
+    margin-left: 260px;
+  }
+
+  .btn-mediaConnect {
+    margin-top: -25px;
+    margin-left: 260px;
+    margin-bottom: 15px;
+  }
+
+  .media-list {
+    margin-left: 260px;
+    width: 15%;
+  }
+
+  /* project section style */
+
+ 
+
+  
 
   
 
