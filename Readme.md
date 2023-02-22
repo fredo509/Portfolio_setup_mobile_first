@@ -142,12 +142,17 @@ You can deploy this project using:
 
 
 
-👤 **Author**
+👤 **Author-1**
 
 - GitHub: [@fredo509](https://github.com/fredo509)
 - Twitter: [@fredo_st_fleur](https://twitter.com/Fredo_st_fleur?t=OEPwMJjspBTEnTevArv0HA&s=09)
 - LinkedIn: [Fredo st fleur](https://www.linkedin.com/in/fredo-st-fleur-0b41a122a)
 
+👤 **Author-2**
+
+- GitHub: [@githubhandle](https://github.com/devalibello)
+- Twitter: [@twitterhandle](https://twitter.com/i_am_aalee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-bello-imoukhuede/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
