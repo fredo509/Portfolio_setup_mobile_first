@@ -498,6 +498,122 @@ body {
     color: #253858;
   }
 
+    /* contact me section */
+  
+    .contact-me {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url("./images/contactMe-bg.svg");
+      background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: right top 40%;
+      background-color: #6070ff;
+      min-height: 100vh;
+      margin-top: -80px;
+      border-radius: 115px 0 0 0;
+      padding-top: 100px;
+    }
+  
+    .contact-title {
+      width: 100%;
+      justify-content: center;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 27px;
+      display: flex;
+      line-height: 1px;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .contact-desc {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #ebebff;
+      padding: 0 24px;
+      margin-bottom: 5px;
+      margin-top: -15px;
+    }
+  
+    .form {
+      width: 100%;
+      margin: 0 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .form form {
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+    }
+  
+    .form-input {
+      height: 48px;
+      margin-bottom: 24px;
+      border-radius: 8px;
+      padding-left: 15px;
+      color: rgba(179, 186, 197, 1);
+    }
+  
+    .form-input:focus {
+      border: 2px solid #396df2;
+      border-radius: 8px;
+      color: rgba(23, 43, 77, 1);
+      font-family: 'Poppins', sans-serif;
+      font-size: regular;
+      font-size: 17px;
+      line-height: 20px;
+      line-height: 78%;
+    }
+  
+    #form-commnt {
+      height: 170px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      padding-left: 15px;
+      padding-top: 15px;
+      font-family: 'Poppins', sans-serif;
+      font-style: regular;
+      font-size: 15px;
+      line-height: 24px;
+      line-height: 107%;
+      color: #b3bac5;
+    }
+  
+    .btn-submit {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding-left: 13px;
+      gap: 10px;
+      width: 170px;
+      height: 60px;
+      border: 1px solid #6070ff;
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-decoration: none;
+      color: #396df2;
+      margin-bottom: 50px;
+  
+      /* for hover,enabled,disabled etc go to line 9 to 28 */
+    }
 }
 
 
