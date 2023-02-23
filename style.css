@@ -176,6 +176,7 @@ body {
     padding: 50px 24px;
     grid-row-gap: 3%;
     height: auto;
+    justify-items: center;
     grid-template-columns: auto;
   }
 
@@ -375,6 +376,7 @@ body {
     margin-top: 220px;
     padding: 40px 24px;
     background-repeat: no-repeat;
+    background-size: cover;
     background-image: url('./images/about.svg');
   }
 
@@ -637,6 +639,7 @@ body {
     margin-top: 70px;
     display: grid;
     padding: 50px 24px;
+    justify-items: center;
     grid-row-gap: 3%;
     height: auto;
     grid-template-columns: auto;
@@ -837,6 +840,7 @@ body {
     margin-top: 220px;
     padding: 40px 24px;
     background-repeat: no-repeat;
+    background-size: cover;
     background-image: url('./images/about.svg');
   }
 
@@ -1117,6 +1121,65 @@ body {
   .project-info {
     margin-top: -50px;
   }
+
+  /* section about me style */
+
+  #section-about {
+    background-image: url('./images/dabtbg.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    margin-top: 80px;
+  }
+
+  .about {
+    width: 40%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 142px;
+    padding-bottom: 70px;
+
+  }
+
+  .self-desc {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+    width: 70%;
+  }
+
+  .connectm{
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  .listm {
+    margin: 0;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    width: 30%;
+  }
+
+  .btn-resume a{
+    min-width: 28%;
+    height: 20px;
+  }
+
+ .skill-list {
+          justify-content: flex-start;
+          margin: 0;
+          padding: 0;
+           
+        }
+        
+        .list-title {
+          width: 85%;
+        }
+      
 
 
 
