@@ -1409,10 +1409,10 @@ body {
     color: rgba(96, 112, 255, 1);
   }
 
-        .btn-resume a {
-          min-width: 34%;
-          height: 20px;
-        }
+  .btn-resume a {
+    min-width: 34%;
+    height: 20px;
+  }
 
   .btn-project a:hover {
     background-color: rgba(34, 48, 210, 1);
@@ -1444,7 +1444,7 @@ body {
 
   .about-title {
     font-family: 'Poppins', sans-serif;
-    font-style: Bold;
+    font-style: bold;
     font-size: 40px;
     line-height: 52px;
     color: rgba(9, 30, 66, 1);
