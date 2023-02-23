@@ -599,7 +599,7 @@ body {
     height: 60px;
     border: 1px solid #6070ff;
     border-radius: 10px;
-    font-family: 'Poppins', sans-serif, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
@@ -769,6 +769,10 @@ body {
     height: auto;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
+  }
+
+  .details-card:hover {
+    cursor: pointer;
   }
 
   .project-image1 {
