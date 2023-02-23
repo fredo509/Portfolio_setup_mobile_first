@@ -1364,14 +1364,10 @@ body {
     margin-top: 0;
     width: 80%;
     font-family: 'Poppins', sans-serif;
-    font-style: Bold;
+    font-style: bold;
     font-size: 40px;
     line-height: 52px;
     color: rgba(9, 30, 66, 1);
-  }
-
-  .project-info {
-    margin-top: -40px;
   }
 
   .canopy {
@@ -1402,6 +1398,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: rgba(52, 69, 99, 1);
+    margin-top: -40px;
   }
 
   .pl {
@@ -1411,6 +1408,11 @@ body {
     line-height: 16px;
     color: rgba(96, 112, 255, 1);
   }
+
+        .btn-resume a {
+          min-width: 34%;
+          height: 20px;
+        }
 
   .btn-project a:hover {
     background-color: rgba(34, 48, 210, 1);
@@ -1445,7 +1447,7 @@ body {
     font-style: Bold;
     font-size: 40px;
     line-height: 52px;
-    color: rgba(9, 30, 66, 1)
+    color: rgba(9, 30, 66, 1);
   }
 
   .self-desc {
@@ -1478,11 +1480,6 @@ body {
     width: 30%;
   }
 
-  .btn-resume a {
-    min-width: 34%;
-    height: 20px;
-  }
-
   /* detaild style */
 
   .skill {
@@ -1491,7 +1488,6 @@ body {
     align-items: flex-start;
     padding: 0;
     margin: 0;
-    align-items: first baseline;
     justify-content: flex-start;
     width: 70%;
   }
@@ -1557,7 +1553,6 @@ body {
     line-height: 20px;
     color: #253858;
     padding-top: -30px;
-
   }
 
   /* contact me section style */
