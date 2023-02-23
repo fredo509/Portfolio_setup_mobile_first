@@ -182,7 +182,7 @@ body {
 
   .details-card {
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -345,7 +345,7 @@ body {
     padding: 4px 12px;
     width: 89px;
     height: 24px;
-    color: #396df2;
+    color: #6070ff;
     border-radius: 8px;
     background: #ebebff;
     margin-bottom: 20px;
@@ -756,7 +756,7 @@ body {
   }
 
   .details-card {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -924,7 +924,7 @@ body {
     padding: 4px 12px;
     width: 89px;
     height: 24px;
-    color: #396df2;
+    color: #6070ff;
     border-radius: 8px;
     background: #ebebff;
     margin-bottom: 20px;
@@ -1295,7 +1295,7 @@ body {
     height: auto;
     flex-direction: row;
     gap: 20px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
   }
 
   .details2 {
@@ -1412,6 +1412,11 @@ body {
   .btn-resume a {
     min-width: 34%;
     height: 20px;
+  }
+
+  .btn-resume a:hover {
+    background-color: rgba(34, 48, 210, 1);
+    color: rgba(255, 255, 255, 1);
   }
 
   .btn-project a:hover {
