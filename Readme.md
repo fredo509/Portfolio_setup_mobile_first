@@ -48,19 +48,12 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Html</a></li>
+    <li>Html</li>
   </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Css</a></li>
+    <li>Css</li>
   </ul>
 </details>
-
-
-
 
 
 ### Key Features <a name="key-features"></a>
