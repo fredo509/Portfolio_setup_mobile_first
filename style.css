@@ -267,7 +267,7 @@ body {
     width: 100%;
   }
 
-  .client-info ul {
+  .Cinf {
     display: flex;
     position: relative;
     justify-content: flex-start;
@@ -277,7 +277,7 @@ body {
     align-items: center;
   }
 
-  .client-info li {
+  .Cinf li {
     margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -324,7 +324,7 @@ body {
     color: #344563;
   }
 
-  .project-tag ul {
+  .pl {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -335,7 +335,7 @@ body {
     padding-left: 0;
   }
 
-  .project-tag li {
+  .pl li {
     margin-left: 0;
     margin-right: 12px;
     display: flex;
@@ -436,7 +436,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .skill-list ul {
+  .sl {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -614,11 +614,9 @@ body {
   }
 }
 
-
 /* minimum desktop size 768px */
 
 @media screen and (min-width: 768px) {
-
   /* header style */
 
   #header {
@@ -847,7 +845,7 @@ body {
     width: 100%;
   }
 
-  .client-info ul {
+  .Cinf {
     display: flex;
     position: relative;
     justify-content: flex-start;
@@ -857,7 +855,7 @@ body {
     align-items: center;
   }
 
-  .client-info li {
+  .Cinf li {
     margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -904,7 +902,7 @@ body {
     color: #344563;
   }
 
-  .project-tag ul {
+  .pl {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -915,7 +913,7 @@ body {
     padding-left: 0;
   }
 
-  .project-tag li {
+  .pl li {
     margin-left: 0;
     margin-right: 12px;
     display: flex;
@@ -1012,7 +1010,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .skill-list ul {
+  .sl {
     list-style: none;
     margin: 0;
     padding: 0;
