@@ -375,6 +375,7 @@ body {
   #section-about {
     margin-top: 220px;
     padding: 40px 24px;
+    padding-bottom: 170px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('./images/about.svg');
@@ -955,6 +956,7 @@ body {
   #section-about {
     margin-top: 220px;
     padding: 40px 24px;
+    padding-bottom: 180px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('./images/about.svg');
@@ -1083,13 +1085,13 @@ body {
     align-items: center;
     background-image: url("./images/contactMe-bg.svg");
     background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: right top 100%;
+    background-size: 50%;
+    background-position: right top ;
     background-color: #6070ff;
     min-height: 100vh;
     margin-top: -80px;
     border-radius: 115px 0 0 0;
-    padding-top: 90px;
+    padding-top: 0;
   }
 
   .contact-title {
