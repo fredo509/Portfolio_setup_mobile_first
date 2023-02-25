@@ -28,6 +28,24 @@ body {
   border: 1px solid rgba(94, 108, 132, 1);
 }
 
+.greeting h1 {
+  background-image: linear-gradient(-225deg, rgba(9, 30, 66, 1) 0%, #44107a 29%, rgba(34, 48, 210, 1) 67%, rgba(52, 69, 99, 1) 100%);
+  background-size: 200% auto;
+  color: rgba(9, 30, 66, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration-color: rgba(9, 30, 66, 1);
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 /* minimum mobile size 375px */
 
 @media screen and (min-width: 375px) {
@@ -1414,12 +1432,18 @@ body {
     height: 20px;
   }
 
-  .btn-resume a:hover {
-    background-color: rgba(34, 48, 210, 1);
-    color: rgba(255, 255, 255, 1);
+  .btn-project a {
+    background: linear-gradient(to right, white 50%, rgba(34, 48, 210, 1) 50%);
+    background-size: 200% 100%;
+    color: rgba(34, 48, 210, 1);
+    transition: all 0.5s ease-out;
   }
 
   .btn-project a:hover {
+    background-position: right bottom;
+  }
+
+  .btn-resume a:hover {
     background-color: rgba(34, 48, 210, 1);
     color: rgba(255, 255, 255, 1);
   }
