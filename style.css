@@ -30,15 +30,15 @@ body {
 
 .greeting h1 {
   background-image: linear-gradient(-225deg,
-  rgba(9, 30, 66, 1) 0%,
-  #44107a 29%,
-  rgba(34, 48, 210, 1) 67%,
-  rgba(52, 69, 99, 1) 100%);
+      rgba(9, 30, 66, 1) 0%,
+      #44107a 29%,
+      rgba(34, 48, 210, 1) 67%,
+      rgba(52, 69, 99, 1) 100%);
   background-size: auto auto;
-  background-clip: border-box;
   background-size: 200% auto;
   color: rgba(9, 30, 66, 1);
   -webkit-background-clip: text;
+  background-clip: border-box;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
   display: inline-block;
