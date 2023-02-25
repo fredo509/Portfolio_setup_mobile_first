@@ -1198,6 +1198,17 @@ body {
 @media screen and (width > 768px) {
   /* header style */
 
+  .btn-project a {
+    background: linear-gradient(to right, white 50%, rgba(34, 48, 210, 1) 50%);
+    background-size: 200% 100%;
+    color: rgba(34, 48, 210, 1);
+    transition: all .5s ease-out;
+  }
+
+  .btn-project a:hover {
+    background-position: right bottom;
+  }
+
   .menu-link {
     display: none;
   }
@@ -1441,10 +1452,10 @@ body {
     color: rgba(255, 255, 255, 1);
   }
 
-  .btn-project a:hover {
+  /* .btn-project a:hover {
     background-color: rgba(34, 48, 210, 1);
     color: rgba(255, 255, 255, 1);
-  }
+  } */
 
   /* section about me style */
 
