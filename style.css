@@ -1442,7 +1442,7 @@ rgba(52, 69, 99, 1) 100%);
     background: linear-gradient(to right, white 50%, rgba(34, 48, 210, 1) 50%);
     background-size: 200% 100%;
     color: rgba(34, 48, 210, 1);
-    transition: all .05s ease-out ;
+    transition: all 0.5s ease-out ;
   }
 
   .btn-project a:hover {
