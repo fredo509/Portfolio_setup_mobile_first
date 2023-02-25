@@ -29,13 +29,7 @@ body {
 }
 
 .greeting h1 {
-  background-image: linear-gradient(-225deg,
-rgba(9, 30, 66, 1) 0%,
-#44107a 29%,
-rgba(34, 48, 210, 1) 67%,
-rgba(52, 69, 99, 1) 100%);
-  background-size: auto auto;
-  background-clip: border-box;
+  background-image: linear-gradient(-225deg, rgba(9, 30, 66, 1) 0%, #44107a 29%, rgba(34, 48, 210, 1) 67%, rgba(52, 69, 99, 1) 100%);
   background-size: 200% auto;
   color: rgba(9, 30, 66, 1);
   -webkit-background-clip: text;
@@ -1442,7 +1436,7 @@ rgba(52, 69, 99, 1) 100%);
     background: linear-gradient(to right, white 50%, rgba(34, 48, 210, 1) 50%);
     background-size: 200% 100%;
     color: rgba(34, 48, 210, 1);
-    transition: all 0.5s ease-out ;
+    transition: all 0.5s ease-out;
   }
 
   .btn-project a:hover {
