@@ -1427,6 +1427,11 @@ body {
     color: #6070ff;
   }
 
+  .btn-resume a {
+    min-width: 34%;
+    height: 20px;
+  }
+
   .btn-project a {
     background: linear-gradient(to right, white 50%, rgba(34, 48, 210, 1) 50%);
     background-size: 200% 100%;
@@ -1436,11 +1441,6 @@ body {
 
   .btn-project a:hover {
     background-position: right bottom;
-  }
-
-  .btn-resume a {
-    min-width: 34%;
-    height: 20px;
   }
 
   .btn-resume a:hover {
