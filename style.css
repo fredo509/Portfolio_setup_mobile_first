@@ -90,7 +90,7 @@ body {
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-    color: #6070ff;
+    color: #0f27ff;
     margin-left: -18px;
   }
 
@@ -160,7 +160,7 @@ body {
     font-size: 16px;
     text-decoration: none;
     line-height: 24px;
-    color: #7f8cff;
+    color: #1a30ff;
   }
 
   .media-list {
@@ -363,7 +363,7 @@ body {
     padding: 4px 12px;
     width: 89px;
     height: 24px;
-    color: #6070ff;
+    color:#0f27ff;
     border-radius: 8px;
     background: #ebebff;
     margin-bottom: 20px;
@@ -383,7 +383,7 @@ body {
     text-decoration: none;
     width: 124px;
     height: 24px;
-    border: 1px solid #6070ff;
+    border: 1px solid #0f27ff;
     border-radius: 8px;
     color: #396df2;
   }
@@ -430,7 +430,7 @@ body {
     gap: 10px;
     width: 45%;
     height: 18px;
-    border: 1px solid #6070ff;
+    border: 1px solid #0f27ff;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -522,7 +522,7 @@ body {
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: right top 40%;
-    background-color: #6070ff;
+    background-color: #0f27ff;
     min-height: 100vh;
     margin-top: -80px;
     border-radius: 115px 0 0 0;
@@ -612,7 +612,7 @@ body {
     gap: 10px;
     width: 170px;
     height: 60px;
-    border: 1px solid #6070ff;
+    border: 1px solid #0f27ff;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -673,7 +673,7 @@ body {
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-    color: #6070ff;
+    color: #0f27ff;
   }
 
   #menu-icon {
@@ -735,7 +735,7 @@ body {
     font-size: 16px;
     text-decoration: none;
     line-height: 24px;
-    color: #7f8cff;
+    color: #1a30ff;
   }
 
   .media-list {
@@ -942,7 +942,7 @@ body {
     padding: 4px 12px;
     width: 89px;
     height: 24px;
-    color: #6070ff;
+    color: #0f27ff;
     border-radius: 8px;
     background: #ebebff;
     margin-bottom: 20px;
@@ -962,7 +962,7 @@ body {
     text-decoration: none;
     width: 124px;
     height: 24px;
-    border: 1px solid #6070ff;
+    border: 1px solid #0f27ff;
     border-radius: 8px;
     color: #396df2;
   }
@@ -1005,7 +1005,7 @@ body {
     gap: 10px;
     width: 20%;
     height: 18px;
-    border: 1px solid #6070ff;
+    border: 1px solid #0f27ff;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1084,7 +1084,7 @@ body {
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: right top 100%;
-    background-color: #6070ff;
+    background-color: #0f27ff;
     min-height: 100vh;
     margin-top: -80px;
     border-radius: 115px 0 0 0;
@@ -1174,7 +1174,7 @@ body {
     gap: 10px;
     width: 170px;
     height: 60px;
-    border: 1px solid #6070ff;
+    border: 1px solid #0f27ff;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1282,7 +1282,7 @@ body {
     font-style: medium;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #1a30ff;
   }
 
   .media-icon {
@@ -1424,7 +1424,7 @@ body {
     font-style: medium;
     font-size: 12px;
     line-height: 16px;
-    color: #6070ff;
+    color: #0f27ff;
   }
 
   .btn-resume a {
@@ -1499,7 +1499,7 @@ body {
     font-style: medium;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #1a30ff;
   }
 
   .listm {
