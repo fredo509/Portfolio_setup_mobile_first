@@ -143,6 +143,12 @@ You can deploy this project using:
 - Twitter: [@fredo_st_fleur](https://twitter.com/Fredo_st_fleur?t=OEPwMJjspBTEnTevArv0HA&s=09)
 - LinkedIn: [Fredo st fleur](https://www.linkedin.com/in/fredo-st-fleur-0b41a122a)
 
+**Author-2**
+
+- GitHub: [@danifromecuador](https://github.com/danifromecuador)
+- Twitter: [@danifromecuador](https://twitter.com/danifromecuador)
+- LinkedIn: [Dani Morillo](https://www.linkedin.com/in/danifromecuador)
+
 
 
 
