@@ -54,6 +54,11 @@ body {
 
 @media screen and (min-width: 375px) {
   /* header style */
+  .showM {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+  }
 
   #header {
     height: 7vh;
