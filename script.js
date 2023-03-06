@@ -1,6 +1,6 @@
-let menuIcon = document.getElementById("ic");
+let menuIcon = document.querySelector(".nav-btn");
 let menuItem = document.getElementById("it-nav");
 
 menuIcon.addEventListener("click",()=>{
-    menuItem.classList.toggle("showM");
+    menuIcon.classList.toggle("showM");
 })
