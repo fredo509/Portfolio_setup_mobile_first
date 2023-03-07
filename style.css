@@ -1269,7 +1269,6 @@ body {
 
   .nav-link {
     font-family: 'poppins', sans-serif;
-    font-style: medium;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
@@ -1321,7 +1320,6 @@ body {
     margin-left: 260px;
     margin-bottom: 20px;
     font-family: 'poppins', sans-serif;
-    font-style: medium;
     font-size: 16px;
     line-height: 24px;
     color: #1a30ff;
@@ -1432,7 +1430,6 @@ body {
 
   .canopy {
     font-family: 'poppins', sans-serif;
-    font-style: medium;
     font-size: 18px;
     line-height: 24px;
     color: rgba(52, 69, 99, 1);
@@ -1446,7 +1443,6 @@ body {
 
   .Cinf li {
     font-family: 'poppins', sans-serif;
-    font-style: regular;
     font-size: 18px;
     line-height: 24px;
     color: rgba(107, 119, 140, 1);
@@ -1454,7 +1450,6 @@ body {
 
   .project-info {
     font-family: 'poppins', sans-serif;
-    font-style: regular;
     font-size: 16px;
     line-height: 24px;
     color: rgba(52, 69, 99, 1);
@@ -1463,7 +1458,6 @@ body {
 
   .pl {
     font-family: 'poppins', sans-serif;
-    font-style: medium;
     font-size: 12px;
     line-height: 16px;
     color: #0f27ff;
@@ -1537,7 +1531,6 @@ body {
     margin: 0;
     margin-bottom: 25px;
     font-family: 'Poppins', sans-serif;
-    font-style: medium;
     font-size: 16px;
     line-height: 24px;
     color: #1a30ff;
@@ -1617,7 +1610,6 @@ body {
   .list-item li {
     /* margin-right: 15px; */
     font-family: 'poppins', sans-serif;
-    font-style: medium;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
