@@ -38,7 +38,6 @@ body {
   color: rgba(9, 30, 66, 1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
   text-decoration-color: rgba(9, 30, 66, 1);
   animation: textclip 4s linear infinite;
   display: inline-block;
@@ -84,7 +83,7 @@ body {
   min-height: 100vh;
   width: 100%;
   mix-blend-mode: multiply;
-  background-color: #6070FF;
+  background-color: #6070ff;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
@@ -109,7 +108,6 @@ body {
 
   #navigation {
     width: 100%;
-    padding: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,7 +133,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 8px;
     margin-top: 65px;
     width: 351px;
@@ -507,7 +504,6 @@ body {
   details {
     width: 100%;
     list-style: none;
-    padding-bottom: 5;
   }
 
   .list-title {
@@ -642,7 +638,7 @@ body {
     border: 2px solid #396df2;
     border-radius: 8px;
     color: rgba(23, 43, 77, 1);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: regular;
     font-size: 17px;
     line-height: 20px;
@@ -655,7 +651,7 @@ body {
     margin-bottom: 24px;
     padding-left: 15px;
     padding-top: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: regular;
     font-size: 15px;
     line-height: 24px;
@@ -703,7 +699,6 @@ body {
 
   #navigation {
     width: 100%;
-    padding: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1187,7 +1182,7 @@ body {
     border: 2px solid #396df2;
     border-radius: 8px;
     color: rgba(23, 43, 77, 1);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: regular;
     font-size: 17px;
     line-height: 20px;
@@ -1218,7 +1213,7 @@ body {
     height: 60px;
     border: 1px solid #0f27ff;
     border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
@@ -1231,7 +1226,6 @@ body {
 
     /* for hover,enabled,disabled etc go to line 9 to 28 */
   }
-
 }
 
 @media screen and (width > 768px) {
@@ -1278,7 +1272,7 @@ body {
   }
 
   .nav-link {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: medium;
     font-size: 15px;
     line-height: 20px;
@@ -1321,7 +1315,7 @@ body {
   .self-description {
     margin-bottom: 20px;
     margin-left: 260px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     height: auto;
     font-style: regular;
     font-size: 20px;
@@ -1332,7 +1326,7 @@ body {
   .btn-mediaConnect {
     margin-left: 260px;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: medium;
     font-size: 16px;
     line-height: 24px;
@@ -1435,7 +1429,7 @@ body {
   .project-title {
     margin-top: 0;
     width: 80%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: bold;
     font-size: 40px;
     line-height: 52px;
@@ -1443,7 +1437,7 @@ body {
   }
 
   .canopy {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: medium;
     font-size: 18px;
     line-height: 24px;
@@ -1457,7 +1451,7 @@ body {
   }
 
   .Cinf li {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: regular;
     font-size: 18px;
     line-height: 24px;
@@ -1465,7 +1459,7 @@ body {
   }
 
   .project-info {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: regular;
     font-size: 16px;
     line-height: 24px;
@@ -1474,7 +1468,7 @@ body {
   }
 
   .pl {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: medium;
     font-size: 12px;
     line-height: 16px;
@@ -1580,7 +1574,7 @@ body {
     justify-content: space-between;
     width: 527px;
     height: 72px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1629,7 +1623,7 @@ body {
 
   .list-item li {
     /* margin-right: 15px; */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: medium;
     font-weight: 500;
     font-size: 15px;
