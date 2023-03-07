@@ -66,8 +66,9 @@
 - **[Responsive_desktop_width->768px]**
 - **[Display-project-section]**
 - **[Display-aboutme-section]**
- **[Display-contactMe-section]**
-  **[Online-deployment]**
+- **[Display-contactMe-section]**
+- **[Online-deployment]**
+- **[Display-menu-link]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,6 +149,12 @@ You can deploy this project using:
 - GitHub: [@danifromecuador](https://github.com/danifromecuador)
 - Twitter: [@danifromecuador](https://twitter.com/danifromecuador)
 - LinkedIn: [Dani Morillo](https://www.linkedin.com/in/danifromecuador)
+
+👤 **Author3**
+
+- GitHub: [@Booze33](https://github.com/Booze33)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 
 
