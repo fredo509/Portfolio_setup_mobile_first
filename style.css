@@ -62,7 +62,7 @@ body {
   top: 10px;
   left: 85%;
   right: 0;
-  z-index: 2;
+  z-index: 3;
   align-self: center;
   background-image: url("./images/iconMenu.svg");
   background-position: center;
