@@ -10,15 +10,17 @@
 	</head>
 
 	<body>
-
+		<!-- <div class="effect"></div> -->
 		<header id="header">
 			<nav id="navigation">
-				<ul>
-					<li><a href="index.html" id="logo"> My Logo</a></li>
-					<li><a href="" class="menu-link"><img src="./images/iconMenu.svg" alt="menu-icon"
-								class="menu-icon"></a></li>
-				</ul>
-				<div class="item-nav">
+				<div>
+					<a href="index.html" id="logo"> My Logo</a>
+				</div>
+				<div>
+					<a id="ml"type="button" class="menu-link"></a>
+				</div>
+
+				<div id="it-nav" class="item-nav">
 					<ul>
 						<li class="nav-list"><a href="#" class="nav-link">Portfolio</a></li>
 						<li class="nav-list"><a href="#" class="nav-link">About </a></li>
@@ -27,11 +29,13 @@
 				</div>
 			</nav>
 		</header>
+
 		<section class="presentation">
+
 			<div class="greeting">
 				<h1>I’m Fredo <br> Glad to see you!</h1>
 			</div>
-			<div class="self-description">
+			<div id="sd" class="self-description">
 				<p>
 					I’m a software developer! I can help you build a product , feature or website Look through some of
 					my work and
@@ -254,7 +258,7 @@
 					<!--Languages -->
 					<details open>
 						<summary class="list-title">Languages</summary>
-					
+
 						<ul class="list-item">
 							<li>
 								<img class="list-icon" src="./images/jsIcon.svg" alt="iconjs">
@@ -283,7 +287,7 @@
 					<!--Frameworks -->
 					<details>
 						<summary class="list-title">Frameworks</summary>
-					
+
 						<ul class="list-item">
 							<li>
 								<img class="list-icon" src="./images/jsIcon.svg" alt="iconjs">
@@ -312,7 +316,7 @@
 					<!--Skills -->
 					<details>
 						<summary class="list-title">Skills</summary>
-					
+
 						<ul class="list-item">
 							<li>
 								<img class="list-icon" src="./images/jsIcon.svg" alt="iconjs">
@@ -339,7 +343,7 @@
 						</ul>
 					</details>
 				</div>
-			</div>	
+			</div>
 
 		</section>
 
@@ -361,7 +365,8 @@
 			<div class="form">
 				<form action="https://formspree.io/f/xgebkyqr" method="post">
 					<label for="input-name">name</label>
-					<input type="text" maxlength="30" id="input-name" class="form-input" placeholder="Enter your name" required>
+					<input type="text" maxlength="30" id="input-name" class="form-input" placeholder="Enter your name"
+						required>
 					<label for="input-email">email</label>
 					<input type="email" id="input-email" class="form-input" placeholder="Enter your email" required>
 					<label for="form-commnt">comment</label>
@@ -372,5 +377,6 @@
 			</div>
 		</section>
 	</body>
+	<script src="script.js"></script>
 
 </html>
