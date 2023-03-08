@@ -5,7 +5,7 @@ iconMenu.addEventListener('click', () => {
   menu.classList.toggle('showMenu');
   iconMenu.classList.toggle('changeIcon');
 });
-navLink.forEach(navUrl => {
+navLink.forEach (navUrl => {
   navUrl.addEventListener('click', () => {
     menu.classList.remove('showMenu');
     iconMenu.classList.remove('changeIcon');
