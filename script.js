@@ -15,15 +15,6 @@ navLink.forEach((navUrl) => {
   });
 });
 
-//javascript action for  mywork section 
-
-btnP.forEach((navUrl, index) => {
-  navUrl.addEventListener('click', () => {
-    openPopUp(index);
-    header.scrollIntoView();
-  });
-});
-
 // Object Array for details card
 
 const myWork = [{
@@ -130,8 +121,17 @@ function openPopUp(id) {
   const hideWin = dataContainer.querySelectorAll('.closeB');
   hideWin.forEach((closeMe) => {
     closeMe.addEventListener('click', () => {
-      popUpView.style.display = "none";
-      dataContainer.style.display = "none";
+      popUpView.style.display = 'none';
+      dataContainer.style.display = 'none';
     });
   });
 }
+
+// javascript action on clicking see project
+
+btnP.forEach((navUrl, index) => {
+  navUrl.addEventListener('click', () => {
+    openPopUp(index);
+    header.scrollIntoView();
+  });
+});
