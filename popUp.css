@@ -1,0 +1,70 @@
+ .overlay {
+ 	position: absolute;
+ 	z-index: 3;
+ 	top: 0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	min-height: 100vh;
+ 	mix-blend-mode: multiply;
+ 	background-color: #c1c7d0;
+ 	backdrop-filter: blur(8px);
+ 	-webkit-backdrop-filter: blur(8px);
+ }
+
+ .js-title {
+ 	
+ 	padding: 0;
+ 	background-color: yellow;
+ }
+
+ .pop-card {
+ 	background-color: white;
+ 	position: absolute;
+ 	z-index: 6;
+ 	top: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	left: 0;
+ 	margin: auto;
+ 	height: 90vh;
+ 	z-index: 4;
+ 	height: 95vh;
+ 	box-sizing: border-box;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	padding: 16px;
+ 	width: 327px;
+ 	border: 1px solid #dfe1e6;
+ 	border-radius: 16px;
+
+ }
+
+ .clI {
+ 	background-color: red;
+ 	
+ }
+
+ .pI1 {
+ 	margin: 0;
+ 	padding: 0;
+ 	margin-top: -50px;
+ 	background-position: center;
+ }
+
+.pInf {
+	font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 24px;
+		color: #344563;
+		
+}
+
+ .close {
+ 	background-image: url(./images/closeIcon.svg);
+ 	position: absolute;
+ 	z-index: 5;
+ 	background-color: red;
+ }
