@@ -81,47 +81,55 @@ function openPopUp(id) {
 
   dataContainer.innerHTML = `
   <div class="pop-card">
-	<div class="project-details pd">
-		<h2 class="project-title js-title">${myWork[id].name}<span class="closeB"><img src="./images/closeB.svg" alt="closingIcon"></span>
-		</h2>
-		<div class="client-info clI">
-			<p class="canopy">CANOPY</p>
-			<ul class="Cinf list">
-				<li>${myWork[id].infoproject[0]}</li>
-				<li>${myWork[id].infoproject[1]}</li>
-			</ul>
-		</div>
-	</div>
-	<div class="pI1"><img src='${myWork[id].image}' alt='projectimage'></div>
-	<div class="pInf">
-		<p>
-			${myWork[id].projectDescription}
-		</p>
-	</div>
-	<div class="p-tag">
-		<ul class="pl plp">
-			<li>${myWork[id].proTech[0]}</li>
-			<li>${myWork[id].proTech[1]}</li>
-			<li>${myWork[id].proTech[2]}</li>
-		</ul>
-	</div>
-	<div class="redirect">
-		<a class="myBtns" href='${myWork[id].liveUrl}'>
-			See live
-			<img src="./images/seeL.svg" alt="">
-		</a>
-		<a class="myBtns" href="${myWork[id].repoUrl}">
-			See source
-			<img src="./images/seeS.svg" alt="">
-		</a>
-	</div>
-</div>
-</div>
-`;
+    <div class="project-details pd">
+      <h2 class="project-title js-title">${myWork[id].name}<span class="closeB"><img src="./images/closeB.svg"
+            alt="closingIcon"></span>
+      </h2>
+      <div class="client-info clI">
+        <p class="canopy">CANOPY</p>
+        <ul class="Cinf list">
+          <li>${myWork[id].infoproject[0]}</li>
+          <li>${myWork[id].infoproject[1]}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pI1"><img src='${myWork[id].image}' alt='projectimage'></div>
+    <div class="crop">
+      <div class="b1">
+        <div class="pInf">
+          <p>
+            ${myWork[id].projectDescription}
+          </p>
+        </div>
+      </div>
+      <div class="b2">
+        <div class="p-tag">
+          <ul class="pl plp">
+            <li>${myWork[id].proTech[0]}</li>
+            <li>${myWork[id].proTech[1]}</li>
+            <li>${myWork[id].proTech[2]}</li>
+          </ul>
+        </div>
+        <div class="redirect">
+          <a class="myBtns" href='${myWork[id].liveUrl}'>
+            See live
+            <img src="./images/seeL.svg" alt="">
+          </a>
+          <a class="myBtns" href="${myWork[id].repoUrl}">
+            See source
+            <img src="./images/seeS.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  `;
+
   // Action for closing popUp window
+
   const hideWin = dataContainer.querySelectorAll('.closeB');
   hideWin.forEach((closeMe) => {
-    closeMe.addEventListener('click', ()=>{
+    closeMe.addEventListener('click', () => {
       popUpView.style.display = "none";
       dataContainer.style.display = "none";
     });

@@ -6,8 +6,8 @@
 	height: 100vh;
 	mix-blend-mode: multiply;
 	background-color: #c1c7d0;
-	backdrop-filter: blur(8px);
-	-webkit-backdrop-filter: blur(8px);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 	display: block;
 }
 
@@ -41,7 +41,6 @@
 	gap: 0;
 	border: 1px solid #dfe1e6;
 	border-radius: 16px;
-	
 }
 
 .clI {
@@ -93,8 +92,10 @@
 	display: flex;
 	width: 100%;
 	margin: 20px;
-	justify-content: space-around;
+	justify-content: flex-start;
+	margin: 0;
 	padding: 0;
+	margin-top: 5px;
 	align-items: flex-start;
 }
 
@@ -117,4 +118,58 @@
 	border: 1px solid #6070ff;
 	border-radius: 8px;
 	box-sizing: border-box;
+	margin-right: 15px;
+}
+
+@media screen and (width > 768px) {
+	.pop-card {
+		width: 85%;
+	}
+
+	.pI1 {
+		background-color: #344563;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		height: 67vh;
+		margin-top: -90px;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		width: 100%;
+	}
+
+	.pI1 img {
+		position: center;
+		width: 100%;
+		padding-top: 40px;
+		height: auto;
+	}
+
+	.crop {
+		display: flex;
+		margin-top: 20px;
+	}
+
+	.b1 {
+		width: 65%;
+		margin-right: 70px;
+	}
+
+	.b2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.redirect {
+		justify-content: flex-start;
+		margin: 0;
+		margin-top: 20px;
+	}
+
+	.myBtns {
+		margin-right: 15px;
+	}
 }
