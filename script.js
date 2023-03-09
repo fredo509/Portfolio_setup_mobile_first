@@ -55,12 +55,12 @@ const myWork = [{
   proTech: ['html', 'javascript', 'css'],
   liveUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
   repoUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
-}
-];
+}];
 
 // Action performing when btn see project ScriptProcessorNode
 
 function openPopUp(id) {
+  
   // create new div with in put it in document body 
 
   const popUpView = document.createElement('div');

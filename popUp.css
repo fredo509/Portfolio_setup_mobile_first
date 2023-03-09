@@ -29,9 +29,7 @@
 	left: 0;
 	width: 92%;
 	margin: auto;
-	padding: 0;
 	height: 90vh;
-	z-index: 4;
 	height: 98vh;
 	box-sizing: border-box;
 	display: flex;
@@ -87,7 +85,6 @@
 	box-sizing: border-box;
 }
 
-
 .redirect {
 	display: flex;
 	width: 100%;
@@ -135,7 +132,6 @@
 		height: 67vh;
 		margin-top: -90px;
 		justify-content: center;
-		align-items: center;
 		padding: 0;
 		width: 100%;
 	}
