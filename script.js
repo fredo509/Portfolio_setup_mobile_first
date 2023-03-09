@@ -60,7 +60,6 @@ const myWork = [{
 // Action performing when btn see project ScriptProcessorNode
 
 function openPopUp(id) {
-  
   // create new div with in put it in document body 
 
   const popUpView = document.createElement('div');
