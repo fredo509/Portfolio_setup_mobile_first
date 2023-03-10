@@ -143,7 +143,7 @@ function validate() {
   }
 
   if (validateLetter() === true) {
-    myMessage.innerHTML = "Please don't use UPPERCASE in your email adresse !!!";
+    myMessage.innerHTML = "Please don't use UPPERCASE in your email adresse";
     myMessage.classList.add('errorM');
     document.myForm.Email.focus();
     return false;

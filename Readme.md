@@ -73,6 +73,7 @@
 - **[Online-deployment]**
 - **[Display-menu-link]**
 - **[Popup-window-viewer]**
+- **[Add-validation-for-email]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
