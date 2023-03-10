@@ -12,11 +12,14 @@
 }
 
 .js-title {
-  margin-top: -20px;
+  margin-top: -15px;
   padding: 0;
   width: 100%;
   display: flex;
+  line-height: 30px;
   justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 .pop-card {
@@ -27,7 +30,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  width: 92%;
+  width: 93%;
   margin: auto;
   height: 90vh;
   height: 98vh;
@@ -39,10 +42,6 @@
   gap: 0;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-}
-
-.clI {
-  margin-top: -30px;
 }
 
 .pd {
@@ -73,12 +72,15 @@
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  padding: 0 16px;
+  margin-top: -18px;
 }
 
 .p-tag {
   align-self: flex-start;
   height: 30px;
   align-items: center;
+  margin-left: 16px;
 }
 
 .plp {
@@ -139,6 +141,10 @@
     width: 100%;
     padding-top: 40px;
     height: auto;
+  }
+
+  .p-tag {
+    margin-left: 0;
   }
 
   .crop {

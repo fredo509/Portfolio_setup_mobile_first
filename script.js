@@ -50,14 +50,14 @@ const myWork = [{
 {
   name: 'Multi-Post Stories',
   infoproject: ['Back end Dev', '2015'],
-  image: './images/project2.svg',
+  image: './images/project4.svg',
   projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   proTech: ['html', 'javascript', 'css'],
   liveUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
   repoUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
 }];
 
-// Action performing when btn see project ScriptProcessorNode
+// Action performing when btn see project is pressed
 
 function openPopUp(id) {
   const popUpView = document.createElement('div');
