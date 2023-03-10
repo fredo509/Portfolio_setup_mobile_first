@@ -72,6 +72,8 @@
 - **[Display-contactMe-section]**
 - **[Online-deployment]**
 - **[Display-menu-link]**
+- **[Popup-window-viewer]**
+- **[Add-validation-for-email]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,7 +169,7 @@ You can deploy this project using:
 
 
 
-- [ ] **[Add-popup-window]**
+- [ ] **[Add-lighter-on-navBar]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
