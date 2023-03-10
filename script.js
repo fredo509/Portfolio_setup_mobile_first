@@ -133,20 +133,23 @@ btnP.forEach((navUrl, index) => {
   });
 });
 
-// Validation for Uppercase in email 
+// validation for Uppercase in email
 
 const myMessage = document.getElementById('message');
+const form =document.myForm;
 
 function validate() {
   function validateLetter() {
-    return Boolean(document.myForm.Email.value.match(/[A-Z]/));
+    return Boolean(form.Email.value.match(/[A-Z]/));
   }
 
   if (validateLetter() === true) {
     myMessage.innerHTML = "Please don't use UPPERCASE in your email adresse";
     myMessage.classList.add('errorM');
-    document.myForm.Email.focus();
+    form.Email.focus();
     return false;
   }
   return (true);
 }
+
+validate();
