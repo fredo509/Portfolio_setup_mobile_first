@@ -136,7 +136,7 @@ btnP.forEach((navUrl, index) => {
 // validation for Uppercase in email
 
 const myMessage = document.getElementById('message');
-const form =document.myForm;
+const form = document.myForm;
 
 function validate() {
   function validateLetter() {
