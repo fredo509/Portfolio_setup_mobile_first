@@ -18,13 +18,13 @@ navLink.forEach((navUrl) => {
 // Object Array for details card
 
 const myWork = [{
-  name: 'Tonic',
-  infoproject: ['Back end Dev', '2015'],
-  image: './images/project_1.svg',
-  projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  name: 'To Do List',
+  infoproject: ['Back end Dev', '2023'],
+  image: './images/todolist.jpeg',
+  projectDescription: 'About In this project, I built a simple HTML list of To-Do tasks. The list is styled according to the specifications listed later in this lesson. This simple web page is created using webpack and served by a webpack dev server.',
   proTech: ['html', 'javascript', 'css'],
-  liveUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
-  repoUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
+  liveUrl: 'https://fredo509.github.io/todolist/',
+  repoUrl: 'https://github.com/fredo509/todolist',
 },
 
 {
