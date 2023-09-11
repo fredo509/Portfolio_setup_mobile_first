@@ -95,7 +95,7 @@ body {
 
 /* minimum mobile size 375px */
 
-@media screen and (min-width: 375px) {
+@media screen and (width < 767px) {
   /* header style */
 
   #header {
@@ -330,7 +330,7 @@ body {
   }
 
   .project-title {
-    width: 60%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -405,30 +405,33 @@ body {
     color: #344563;
   }
 
+  .project-tag {
+    width: 100%;
+  }
+
   .pl {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    width: 53px;
-    height: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 8px;
-    padding-left: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .pl li {
-    margin-left: 0;
+    flex: 1;
+    margin: 2px;
     margin-right: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 4px 12px;
     width: 89px;
     height: 24px;
     color: #0f27ff;
     border-radius: 8px;
     background: #ebebff;
-    margin-bottom: 20px;
   }
 
   .btn-project a {
@@ -878,7 +881,7 @@ body {
     padding: 0;
     gap: 12px;
     width: 100%;
-    height: 288px;
+    height: auto;
   }
 
   .project-details {
@@ -886,12 +889,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    height: 120px;
+    height: auto;
     margin-top: 10px;
   }
 
   .project-title {
-    width: 60%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -905,7 +908,7 @@ body {
     margin-bottom: 12px;
     padding: 0;
     align-items: center;
-    height: 10px;
+    height: auto;
     width: 100%;
   }
 
@@ -966,30 +969,33 @@ body {
     color: #344563;
   }
 
+  .project-tag {
+    width: 100%;
+  }
+
   .pl {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    width: 53px;
-    height: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 8px;
-    padding-left: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .pl li {
-    margin-left: 0;
+    flex: 1;
+    margin: 2px;
     margin-right: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 4px 12px;
     width: 89px;
     height: 24px;
     color: #0f27ff;
     border-radius: 8px;
     background: #ebebff;
-    margin-bottom: 20px;
   }
 
   .btn-project a {
@@ -1358,7 +1364,7 @@ body {
   }
 
   .details-card {
-    width: 120%;
+    width: 100%;
     background-color: red;
     height: auto;
     flex-direction: row;
@@ -1417,7 +1423,7 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    height: 354px;
+    height: auto;
   }
 
   .project-description {
@@ -1463,13 +1469,17 @@ body {
     line-height: 24px;
     color: rgba(52, 69, 99, 1);
     margin-top: -40px;
+    height: auto;
   }
 
   .pl {
+    width: 100%;
     font-family: 'poppins', sans-serif;
     font-size: 12px;
     line-height: 16px;
     color: #0f27ff;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
   }
 
   .btn-resume a {
