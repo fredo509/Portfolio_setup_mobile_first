@@ -1358,7 +1358,8 @@ body {
   }
 
   .details-card {
-    width: 150%;
+    width: 120%;
+    background-color: red;
     height: auto;
     flex-direction: row;
     gap: 20px;
