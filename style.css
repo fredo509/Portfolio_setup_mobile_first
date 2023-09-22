@@ -738,6 +738,39 @@ body {
     padding: 34px;
   }
 
+  .item-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 65px;
+    width: 351px;
+    height: 184px;
+    left: 12px;
+    top: 180px;
+  }
+
+  .nav-list {
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    z-index: 3;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+  }
+
   #logo {
     width: 30%;
     height: 20px;
@@ -947,18 +980,22 @@ body {
 
   .client-info {
     display: flex;
-    margin-bottom: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
     padding: 0;
     align-items: center;
-    width: auto;
-    justify-content: center;
+    height: auto;
+    width: 100%;
   }
 
   .Cinf {
     display: flex;
-    align-self: center;
+    position: relative;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    height: 10px;
     align-items: center;
-    margin: 20px 0;
   }
 
   .Cinf li {
@@ -975,7 +1012,7 @@ body {
   .canopy {
     list-style: none;
     width: 55px;
-    height: 16px;
+    height: auto;
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -999,7 +1036,7 @@ body {
 
   .project-info {
     width: 100%;
-    height: 76px;
+    height: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1059,7 +1096,7 @@ body {
   /* about me section */
 
   #section-about {
-    margin-top: 220px;
+    margin-top: 520px;
     padding: 40px 24px;
     padding-bottom: 200px;
     background-repeat: no-repeat;
@@ -1086,13 +1123,18 @@ body {
     margin-left: 0;
   }
 
+  .self-desc {
+    margin-bottom: 70px;
+    height: auto;
+  }
+
   .btn-resume a {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px;
-    gap: 10px;
-    width: 20%;
+    width: 140px;
+    max-width: 50%;
     height: 18px;
     border: 1px solid #0f27ff;
     border-radius: 8px;
@@ -1108,6 +1150,11 @@ body {
   }
 
   /* List menu still */
+
+  details {
+    width: 100%;
+    list-style: none;
+  }
 
   .list-title {
     display: flex;
@@ -1141,12 +1188,21 @@ body {
     transform: rotate(90deg);
   }
 
+  .list-icon {
+    height: 48px;
+    width: 48px;
+  }
+
   .list-item {
+    background-color: rgba(247, 247, 249, 1);
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px;
-    margin-top: 30px;
+    justify-content: flex-start;
+    padding: 0;
+    width: 305px;
+    height: 66.72px;
+    border-radius: 10px;
   }
 
   .list-item li {
@@ -1157,8 +1213,6 @@ body {
     font-size: 15px;
     line-height: 20px;
     display: flex;
-    align-items: center;
-    margin-top: 25px;
     color: #253858;
   }
 
