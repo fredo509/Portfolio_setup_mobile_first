@@ -1456,7 +1456,6 @@ body {
 
   .details-card {
     width: 100%;
-    background-color: red;
     height: auto;
     flex-direction: row;
     gap: 20px;
@@ -1551,7 +1550,6 @@ body {
     width: auto;
     margin-right: 10px;
   }
-
 
   .Cinf {
     display: flex;
@@ -1675,7 +1673,6 @@ body {
     padding: 0;
     margin: 0;
     justify-content: flex-start;
-
   }
 
   .list-title {

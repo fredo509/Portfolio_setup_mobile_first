@@ -54,7 +54,7 @@ const myWork = [{
   name: 'Food App',
   infoproject: ['Back end Dev', '2023'],
   image: './images/food-in.jpeg',
-  projectDescription: "The Ruby on Rails Food application exemplifies the MVC architecture and leverages the Devise gem for authentication and the CanCanCan gem for authorization. Demonstrating the robust capabilities of Ruby on Rails, this app seamlessly interacts with a database to deliver an impressive user experience.<br> With a focus on food- related functionalities, the app offers a comprehensive view interface encompassing foods, recipes, and inventories.Through this interface, users are empowered to perform a range of actions.They can effortlessly add, delete, or edit items, provided they possess the necessary authorization based on their assigned role within the system.",
+  projectDescription: 'The Ruby on Rails Food application exemplifies the MVC architecture and leverages the Devise gem for authentication and the CanCanCan gem for authorization. Demonstrating the robust capabilities of Ruby on Rails, this app seamlessly interacts with a database to deliver an impressive user experience.<br> With a focus on food- related functionalities, the app offers a comprehensive view interface encompassing foods, recipes, and inventories.Through this interface, users are empowered to perform a range of actions.They can effortlessly add, delete, or edit items, provided they possess the necessary authorization based on their assigned role within the system.',
   proTech: ['Ruby', 'RoR', 'PostgreSQL', 'Boostrap'],
   liveUrl: 'https://rails-mquh.onrender.com/',
   repoUrl: 'https://github.com/fredo509/App-Food',

@@ -30,7 +30,6 @@
   position: absolute;
   z-index: 4;
   top: 20px;
-  bottom: -1;
   right: 0;
   left: 0;
   width: 93%;
@@ -141,7 +140,6 @@
   .pI1 img {
     width: 100%;
     display: flex;
-    /* padding-top: 40px; */
   }
 
   .p-tag {
