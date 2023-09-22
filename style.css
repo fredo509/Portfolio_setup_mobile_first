@@ -1339,38 +1339,27 @@ body {
     display: none;
   }
 
-  #header {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-  }
-
   .item-nav {
     display: block;
-    min-width: 20%;
-    justify-self: flex-end;
-    align-items: center;
-    align-content: center;
-  }
-
-  #navigation {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 142px;
-    width: 100%;
   }
 
   .item-nav ul {
+    width: 0;
+    height: 0;
     display: flex;
     justify-content: end;
     list-style: none;
     flex-direction: row;
+    background-color: red;
   }
 
   .nav-list {
+    display: flex;
     margin-right: 36px;
+    height: 0;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: -33px;
   }
 
   .nav-link {
