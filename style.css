@@ -5,9 +5,13 @@ label {
 }
 
 body {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   background-color: #f7f7f9;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .btn-project a:hover,
@@ -15,6 +19,10 @@ body {
 .btn-resume a:hover {
   background-color: rgba(64, 83, 252, 0.24);
   color: rgba(255, 255, 255, 1);
+}
+
+.nav-link:hover {
+  color: #0f27ff;
 }
 
 .btn-project a:active,
@@ -86,6 +94,7 @@ body {
   background-color: #6070ff;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
+  overflow: hidden;
 }
 
 .changeIcon {
@@ -95,7 +104,7 @@ body {
 
 /* minimum mobile size 375px */
 
-@media screen and (min-width: 375px) {
+@media screen and (width < 768px) {
   /* header style */
 
   #header {
@@ -165,7 +174,7 @@ body {
 
   .presentation {
     width: 100%;
-    height: 92vh;
+    min-height: 92vh;
     background-image: url("./images/headerBackground.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -194,7 +203,7 @@ body {
   }
 
   .self-description {
-    width: 70%;
+    width: auto;
     height: auto;
     position: relative;
     margin: 0 24px 24px 24px;
@@ -231,8 +240,7 @@ body {
   }
 
   .media-link {
-    width: 17px;
-    height: 17px;
+    width: 100%;
   }
 
   .media-icon {
@@ -275,8 +283,8 @@ body {
     border-radius: 8px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    background-image: url('./images/todolist.jpeg');
+    background-size: 100%;
+    background-image: url('./images/vacay-inn.png');
   }
 
   .project-image2 {
@@ -295,7 +303,10 @@ body {
     width: 100%;
     height: 220px;
     border-radius: 8px;
-    background-image: url('./images/project3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url('./images/crypto-icon.png');
   }
 
   .project-image4 {
@@ -303,7 +314,21 @@ body {
     width: 100%;
     height: 220px;
     border-radius: 8px;
-    background-image: url('./images/project4.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./images/food.jpeg');
+  }
+
+  .project-image5 {
+    display: flex;
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./images/blog-app.png');
   }
 
   .card-info {
@@ -330,7 +355,7 @@ body {
   }
 
   .project-title {
-    width: 60%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -341,6 +366,7 @@ body {
 
   .client-info {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 5px;
     padding: 0;
     align-items: center;
@@ -405,30 +431,33 @@ body {
     color: #344563;
   }
 
+  .project-tag {
+    width: 100%;
+  }
+
   .pl {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    width: 53px;
-    height: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 8px;
-    padding-left: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .pl li {
-    margin-left: 0;
+    flex: 1;
+    margin: 2px;
     margin-right: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 4px 12px;
     width: 89px;
     height: 24px;
     color: #0f27ff;
     border-radius: 8px;
     background: #ebebff;
-    margin-bottom: 20px;
   }
 
   .btn-project a {
@@ -453,7 +482,7 @@ body {
   /* about me section */
 
   #section-about {
-    margin-top: 220px;
+    margin-top: 520px;
     padding: 40px 24px;
     padding-bottom: 200px;
     background-repeat: no-repeat;
@@ -489,8 +518,8 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 12px;
-    gap: 10px;
-    width: 45%;
+    width: 140px;
+    max-width: 50%;
     height: 18px;
     border: 1px solid #0f27ff;
     border-radius: 8px;
@@ -709,6 +738,39 @@ body {
     padding: 34px;
   }
 
+  .item-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 65px;
+    width: 351px;
+    height: 184px;
+    left: 12px;
+    top: 180px;
+  }
+
+  .nav-list {
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    z-index: 3;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+  }
+
   #logo {
     width: 30%;
     height: 20px;
@@ -791,8 +853,7 @@ body {
   }
 
   .media-link {
-    width: 17px;
-    height: 17px;
+    width: 100%;
   }
 
   .media-icon {
@@ -856,7 +917,10 @@ body {
     width: 100%;
     height: 220px;
     border-radius: 8px;
-    background-image: url('./images/project3.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./images/crypto-icon.png');
   }
 
   .project-image4 {
@@ -864,7 +928,21 @@ body {
     width: 100%;
     height: 220px;
     border-radius: 8px;
-    background-image: url('./images/project4.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./images/food.jpeg');
+  }
+
+  .project-image5 {
+    display: flex;
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./images/blog-app.png');
   }
 
   .card-info {
@@ -878,7 +956,7 @@ body {
     padding: 0;
     gap: 12px;
     width: 100%;
-    height: 288px;
+    height: auto;
   }
 
   .project-details {
@@ -886,12 +964,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    height: 120px;
+    height: auto;
     margin-top: 10px;
   }
 
   .project-title {
-    width: 60%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -902,10 +980,11 @@ body {
 
   .client-info {
     display: flex;
-    margin-bottom: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
     padding: 0;
     align-items: center;
-    height: 10px;
+    height: auto;
     width: 100%;
   }
 
@@ -933,7 +1012,7 @@ body {
   .canopy {
     list-style: none;
     width: 55px;
-    height: 16px;
+    height: auto;
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -957,7 +1036,7 @@ body {
 
   .project-info {
     width: 100%;
-    height: 76px;
+    height: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -966,30 +1045,33 @@ body {
     color: #344563;
   }
 
+  .project-tag {
+    width: 100%;
+  }
+
   .pl {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    width: 53px;
-    height: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 8px;
-    padding-left: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .pl li {
-    margin-left: 0;
+    flex: 1;
+    margin: 2px;
     margin-right: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 4px 12px;
     width: 89px;
     height: 24px;
     color: #0f27ff;
     border-radius: 8px;
     background: #ebebff;
-    margin-bottom: 20px;
   }
 
   .btn-project a {
@@ -1014,7 +1096,7 @@ body {
   /* about me section */
 
   #section-about {
-    margin-top: 220px;
+    margin-top: 520px;
     padding: 40px 24px;
     padding-bottom: 200px;
     background-repeat: no-repeat;
@@ -1041,13 +1123,18 @@ body {
     margin-left: 0;
   }
 
+  .self-desc {
+    margin-bottom: 70px;
+    height: auto;
+  }
+
   .btn-resume a {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px;
-    gap: 10px;
-    width: 20%;
+    width: 140px;
+    max-width: 50%;
     height: 18px;
     border: 1px solid #0f27ff;
     border-radius: 8px;
@@ -1063,6 +1150,11 @@ body {
   }
 
   /* List menu still */
+
+  details {
+    width: 100%;
+    list-style: none;
+  }
 
   .list-title {
     display: flex;
@@ -1096,12 +1188,21 @@ body {
     transform: rotate(90deg);
   }
 
+  .list-icon {
+    height: 48px;
+    width: 48px;
+  }
+
   .list-item {
+    background-color: rgba(247, 247, 249, 1);
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px;
-    margin-top: 30px;
+    justify-content: flex-start;
+    padding: 0;
+    width: 305px;
+    height: 66.72px;
+    border-radius: 10px;
   }
 
   .list-item li {
@@ -1112,8 +1213,6 @@ body {
     font-size: 15px;
     line-height: 20px;
     display: flex;
-    align-items: center;
-    margin-top: 25px;
     color: #253858;
   }
 
@@ -1246,7 +1345,6 @@ body {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    background-color: white;
   }
 
   .item-nav {
@@ -1255,7 +1353,6 @@ body {
     justify-self: flex-end;
     align-items: center;
     align-content: center;
-    margin-top: 60px;
   }
 
   #navigation {
@@ -1358,7 +1455,7 @@ body {
   }
 
   .details-card {
-    width: 150%;
+    width: 100%;
     height: auto;
     flex-direction: row;
     gap: 20px;
@@ -1375,8 +1472,8 @@ body {
     background-position: center;
     height: 354px;
     border-radius: 8px;
-    background-size: cover;
-    background-image: url('./images/todolist.jpeg');
+    background-size: 100%;
+    background-image: url('./images/vacay-inn.png');
   }
 
   .project-image2 {
@@ -1392,20 +1489,30 @@ body {
   .project-image3 {
     width: 100%;
     height: 354px;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     border-radius: 8px;
-    background-image: url('./images/dpimg3.svg');
+    background-image: url('./images/crypto-icon.png');
     background-repeat: no-repeat;
   }
 
   .project-image4 {
     width: 100%;
     height: 354px;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     border-radius: 8px;
-    background-image: url('./images/dpimg4.svg');
+    background-image: url('./images/food.jpeg');
+    background-repeat: no-repeat;
+  }
+
+  .project-image5 {
+    width: 100%;
+    height: 354px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 8px;
+    background-image: url('./images/blog-app.png');
     background-repeat: no-repeat;
   }
 
@@ -1416,7 +1523,7 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    height: 354px;
+    height: auto;
   }
 
   .project-description {
@@ -1439,14 +1546,16 @@ body {
   .canopy {
     font-family: 'poppins', sans-serif;
     font-size: 18px;
-    line-height: 24px;
     color: rgba(52, 69, 99, 1);
-    margin-right: 30px;
+    width: auto;
+    margin-right: 10px;
   }
 
   .Cinf {
-    height: 30px;
-    align-items: flex-end;
+    display: flex;
+    height: auto;
+    padding: 0;
+    justify-content: flex-start;
   }
 
   .Cinf li {
@@ -1454,6 +1563,7 @@ body {
     font-size: 18px;
     line-height: 24px;
     color: rgba(107, 119, 140, 1);
+    width: auto;
   }
 
   .project-info {
@@ -1462,13 +1572,17 @@ body {
     line-height: 24px;
     color: rgba(52, 69, 99, 1);
     margin-top: -40px;
+    height: auto;
   }
 
   .pl {
+    width: 100%;
     font-family: 'poppins', sans-serif;
     font-size: 12px;
     line-height: 16px;
     color: #0f27ff;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
   }
 
   .btn-resume a {
@@ -1506,12 +1620,12 @@ body {
   }
 
   .about {
-    width: 40%;
+    width: 60%;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 142px;
+    padding-left: 22px;
     padding-bottom: 70px;
   }
 
@@ -1523,11 +1637,11 @@ body {
   }
 
   .self-desc {
-    text-align: left;
+    text-align: justify;
     padding: 0;
     margin: 0;
     margin-bottom: 25px;
-    width: 70%;
+    width: 90%;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -1559,13 +1673,11 @@ body {
     padding: 0;
     margin: 0;
     justify-content: flex-start;
-    width: 70%;
   }
 
   .list-title {
     display: flex;
     justify-content: space-between;
-    width: 527px;
     height: 72px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
@@ -1653,4 +1765,8 @@ body {
   margin-top: -20px;
   font-size: medium;
   font-family: 'poppins', sans-serif;
+}
+
+.project-tag li:hover {
+  font-size: 20px;
 }

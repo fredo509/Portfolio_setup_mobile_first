@@ -3,7 +3,7 @@
   z-index: 3;
   top: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   mix-blend-mode: multiply;
   background-color: #c1c7d0;
   backdrop-filter: blur(10px);
@@ -21,18 +21,20 @@
   margin-bottom: 5px;
 }
 
+.pl li:hover {
+  font-size: 20px;
+}
+
 .pop-card {
   background-color: white;
   position: absolute;
   z-index: 4;
-  top: 0;
-  bottom: 0;
+  top: 20px;
   right: 0;
   left: 0;
   width: 93%;
   margin: auto;
-  height: 90vh;
-  height: 98vh;
+  height: 95vh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -41,6 +43,7 @@
   gap: 0;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  overflow-x: scroll;
 }
 
 .pd {
@@ -55,6 +58,8 @@
 
 .pI1 {
   width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .pI1 img {
@@ -62,7 +67,7 @@
   padding: 0;
   margin-top: -50px;
   width: 100%;
-  min-height: 10vh;
+  min-height: 30vh;
 }
 
 .pInf {
@@ -80,6 +85,7 @@
   height: 30px;
   align-items: center;
   margin-left: 16px;
+  margin-bottom: 45px;
 }
 
 .plp {
@@ -88,12 +94,10 @@
 
 .redirect {
   display: flex;
-  width: 100%;
-  margin: 20px;
-  justify-content: flex-start;
-  padding: 0;
+  width: 95%;
+  justify-content: space-between;
+  padding: 0 10px;
   margin-top: 5px;
-  align-items: flex-start;
 }
 
 .myBtns {
@@ -115,7 +119,6 @@
   border: 1px solid #6070ff;
   border-radius: 8px;
   box-sizing: border-box;
-  margin-right: 15px;
 }
 
 @media screen and (width > 768px) {
@@ -125,12 +128,10 @@
 
   .pI1 {
     background-color: #344563;
-    overflow: hidden;
     display: flex;
     align-items: center;
     text-align: center;
-    height: 67vh;
-    margin-top: -90px;
+    height: auto;
     justify-content: center;
     padding: 0;
     width: 100%;
@@ -138,8 +139,7 @@
 
   .pI1 img {
     width: 100%;
-    padding-top: 40px;
-    height: auto;
+    display: flex;
   }
 
   .p-tag {
@@ -171,4 +171,20 @@
   .myBtns {
     margin-right: 15px;
   }
+}
+
+.myBtns:hover {
+  background-color: rgba(64, 83, 252, 0.24);
+  color: rgba(255, 255, 255, 1);
+}
+
+.myBtns:active {
+  background-color: rgba(34, 48, 210, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.myBtns:disabled {
+  background-color: rgba(193, 199, 208, 1);
+  color: rgba(94, 108, 132, 1);
+  border: 1px solid rgba(94, 108, 132, 1);
 }

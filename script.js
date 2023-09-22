@@ -1,15 +1,18 @@
 const iconMenu = document.querySelector('#ml');
 const menu = document.getElementById('it-nav');
-const navLink = document.querySelectorAll('.nav-list');
+const navLink = document.querySelectorAll('.nav-link');
 const btnP = document.querySelectorAll('.btnP');
 const header = document.getElementById('header');
 
 iconMenu.addEventListener('click', () => {
   menu.classList.toggle('showMenu');
   iconMenu.classList.toggle('changeIcon');
+  document.body.classList.toggle('no-scroll');
 });
+
 navLink.forEach((navUrl) => {
   navUrl.addEventListener('click', () => {
+    document.body.classList.remove('no-scroll');
     menu.classList.remove('showMenu');
     iconMenu.classList.remove('changeIcon');
   });
@@ -18,48 +21,59 @@ navLink.forEach((navUrl) => {
 // Object Array for details card
 
 const myWork = [{
-  name: 'To Do List',
+  name: 'Vacay Inn',
+  infoproject: ['Front-end / Back-end Dev', '2023'],
+  image: './images/vacay-inn-dev.jpeg',
+  projectDescription: '"Vacay Inn" is a feature-rich application meticulously crafted to simplify the hotel reservation experience. From the user-friendly registration process and robust authentication to reservation management and responsive design, the app strives to deliver a user-centric and seamless journey for reserving rooms at captivating hotel branches.',
+  proTech: ['React', 'Rails', 'RoR', 'PostgreSQL'],
+  liveUrl: 'https://vacay-inn.onrender.com',
+  repoUrl: 'https://github.com/fredo509/Capstone-Front-End',
+},
+
+{
+  name: 'Action Comics',
+  infoproject: ['Front-end Dev', '2023'],
+  image: './images/act-movies.jpeg',
+  projectDescription: "Action Comics is the ultimate app for movie enthusiasts and cinephiles, designed to enhance your movie-watching experience like never before. With Action Comics, you can easily browse and explore a vast collection of movies, showcasing stunning images and captivating titles. Whether you're looking for your next cinematic adventure or just want to discover hidden gems, Action Comics has got you covered.",
+  proTech: ['HTML5', 'JavaScript', 'CSS', 'Webpack'],
+  liveUrl: 'https://actioncomics.netlify.app',
+  repoUrl: 'https://github.com/fredo509/Javascript-capstone-Project',
+},
+
+{
+  name: 'Crypto Metrics',
+  infoproject: ['Frony-end Dev', '2023'],
+  image: './images/cryp.png',
+  projectDescription: 'Welcome to Crypto Metric, the cutting-edge cryptocurrency analytics app built with React, designed to empower both seasoned traders and newcomers in the world of digital currencies. With CryptoMetric, you gain access to comprehensive data, real-time insights, and powerful tools to make informed decisions in the fast-paced crypto market.',
+  proTech: ['HTML', 'JavaScript', 'CSS', 'React'],
+  liveUrl: 'https://cryptometrics-cm.netlify.app',
+  repoUrl: 'https://github.com/fredo509/CryptoCurrencies-metrics',
+},
+
+{
+  name: 'Food App',
   infoproject: ['Back end Dev', '2023'],
-  image: './images/todolist.jpeg',
-  projectDescription: 'About In this project, I built a simple HTML list of To-Do tasks. The list is styled according to the specifications listed later in this lesson. This simple web page is created using webpack and served by a webpack dev server.',
-  proTech: ['html', 'javascript', 'css'],
-  liveUrl: 'https://fredo509.github.io/todolist/',
-  repoUrl: 'https://github.com/fredo509/todolist',
+  image: './images/food-in.jpeg',
+  projectDescription: 'The Ruby on Rails Food application exemplifies the MVC architecture and leverages the Devise gem for authentication and the CanCanCan gem for authorization. Demonstrating the robust capabilities of Ruby on Rails, this app seamlessly interacts with a database to deliver an impressive user experience.<br> With a focus on food- related functionalities, the app offers a comprehensive view interface encompassing foods, recipes, and inventories.Through this interface, users are empowered to perform a range of actions.They can effortlessly add, delete, or edit items, provided they possess the necessary authorization based on their assigned role within the system.',
+  proTech: ['Ruby', 'RoR', 'PostgreSQL', 'Boostrap'],
+  liveUrl: 'https://rails-mquh.onrender.com/',
+  repoUrl: 'https://github.com/fredo509/App-Food',
 },
 
 {
-  name: 'Multi-Post Stories',
-  infoproject: ['Back end Dev', '2015'],
-  image: './images/project2.svg',
-  projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  proTech: ['html', 'javascript', 'css'],
-  liveUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
-  repoUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
-},
-
-{
-  name: 'Tonic',
-  infoproject: ['Back end Dev', '2015'],
-  image: './images/project3.svg',
-  projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  proTech: ['html', 'javascript', 'css'],
-  liveUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
-  repoUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
-},
-
-{
-  name: 'Multi-Post Stories',
-  infoproject: ['Back end Dev', '2015'],
-  image: './images/project4.svg',
-  projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  proTech: ['html', 'javascript', 'css'],
-  liveUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
-  repoUrl: 'https://github.com/fredo509/Portfolio_setup_mobile_first',
+  name: 'Trading Forum',
+  infoproject: ['Back end Dev', '2023'],
+  image: './images/blog-dev.jpeg',
+  projectDescription: "Trading Forum is built on the robust and efficient Ruby on Rails framework. Rails, known for its elegant syntax and developer-friendly conventions, forms the backbone of our platform. It enables us to develop and deploy features rapidly, ensuring a smooth user experience.At the heart of our application is Ruby, a dynamic and versatile programming language. Ruby's simplicity and flexibility allow us to create elegant solutions, from intricate backend logic to user-friendly interfaces.",
+  proTech: ['Ruby', 'Rails', 'RoR', 'PostgreSQL'],
+  liveUrl: 'https://blog-app-uwjf.onrender.com',
+  repoUrl: 'https://github.com/fredo509/Blog_App',
 }];
 
 // Action performing when btn see project is pressed
 
 function openPopUp(id) {
+  document.body.classList.add('no-scroll');
   const popUpView = document.createElement('div');
   const dataContainer = document.createElement('div');
   dataContainer.classList.add('dataContainer');
@@ -96,16 +110,17 @@ function openPopUp(id) {
             <li>${myWork[id].proTech[0]}</li>
             <li>${myWork[id].proTech[1]}</li>
             <li>${myWork[id].proTech[2]}</li>
+            <li>${myWork[id].proTech[3]}</li>
           </ul>
         </div>
         <div class="redirect">
-          <a class="myBtns" href='${myWork[id].liveUrl}'>
+          <a class="myBtns" href='${myWork[id].liveUrl}' target="_blank" rel="noopener">
             See live
-            <img src="./images/seeL.svg" alt="">
+            <img src="./images/seeL.svg" alt="live-icon">
           </a>
-          <a class="myBtns" href="${myWork[id].repoUrl}">
+          <a class="myBtns" href="${myWork[id].repoUrl}" target="_blank" rel="noopener">
             See source
-            <img src="./images/seeS.svg" alt="">
+            <img src="./images/seeS.svg" alt="github-icon">
           </a>
         </div>
       </div>
@@ -118,6 +133,7 @@ function openPopUp(id) {
   const hideWin = dataContainer.querySelectorAll('.closeB');
   hideWin.forEach((closeMe) => {
     closeMe.addEventListener('click', () => {
+      document.body.classList.remove('no-scroll');
       popUpView.style.display = 'none';
       dataContainer.style.display = 'none';
     });
