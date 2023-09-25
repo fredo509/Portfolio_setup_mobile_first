@@ -112,7 +112,10 @@ body {
     display: flex;
     padding: 3px;
     align-items: center;
-    background-color: #ffff;
+    background-color: #fff;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
   }
 
   #navigation {
@@ -255,7 +258,7 @@ body {
   #section-project {
     margin-top: 70px;
     display: grid;
-    padding: 50px 24px;
+    padding: 75px 24px;
     grid-row-gap: 3%;
     height: auto;
     justify-items: center;
@@ -728,6 +731,9 @@ body {
     padding: 3px;
     background-color: #ffff;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
   }
 
   #navigation {
@@ -868,7 +874,7 @@ body {
   #section-project {
     margin-top: 70px;
     display: grid;
-    padding: 50px 24px;
+    padding: 80px 24px;
     justify-items: center;
     grid-row-gap: 3%;
     height: auto;
@@ -898,7 +904,10 @@ body {
     width: 100%;
     height: 220px;
     border-radius: 8px;
-    background-image: url('./images/todolist.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./images/vacay-inn.png');
   }
 
   .project-image2 {
