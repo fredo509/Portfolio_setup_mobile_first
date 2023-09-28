@@ -87,13 +87,12 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 2;
   min-height: 100vh;
   width: 100%;
   mix-blend-mode: multiply;
   background-color: #6070ff;
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
   overflow: hidden;
 }
 
@@ -110,25 +109,25 @@ body {
   #header {
     height: 7vh;
     display: flex;
-    padding: 3px;
     align-items: center;
-    background-color: #fff;
-    width: 100%;
-    z-index: 3;
-    position: fixed;
+    justify-content: center;
+    box-sizing: border-box;
   }
 
   #navigation {
     width: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
+    height: 7vh;
     justify-content: space-between;
     align-items: center;
-    padding: 34px;
+    position: fixed;
+    background-color: #fff;
   }
 
   #logo {
     width: 30%;
-    height: 20px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -137,7 +136,7 @@ body {
     line-height: 20px;
     text-align: center;
     color: #0f27ff;
-    margin-left: -18px;
+    margin-left: 20px;
   }
 
   .item-nav ul {
@@ -201,14 +200,13 @@ body {
     display: flex;
     align-items: center;
     color: #172b4d;
-    position: relative;
     flex-grow: 0;
   }
 
   .self-description {
     width: auto;
     height: auto;
-    position: relative;
+    
     margin: 0 24px 24px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -232,7 +230,7 @@ body {
   }
 
   .media-list {
-    position: relative;
+    
     width: 40%;
     display: flex;
     flex-direction: row;
@@ -379,7 +377,6 @@ body {
 
   .Cinf {
     display: flex;
-    position: relative;
     justify-content: flex-start;
     margin: 0;
     padding: 0;
@@ -402,7 +399,6 @@ body {
     list-style: none;
     width: 55px;
     height: auto;
-    position: relative;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -728,20 +724,18 @@ body {
   #header {
     height: 7vh;
     display: flex;
-    padding: 3px;
-    background-color: #ffff;
     align-items: center;
-    position: fixed;
     width: 100%;
-    z-index: 3;
   }
 
   #navigation {
+    background-color: #ffff;
+    height: 7vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 34px;
+    position: fixed;
   }
 
   .item-nav ul {
@@ -788,6 +782,7 @@ body {
     line-height: 20px;
     text-align: center;
     color: #0f27ff;
+    margin-left: 20px;
   }
 
   /* Main section Style */
@@ -818,13 +813,11 @@ body {
     display: flex;
     align-items: center;
     color: #172b4d;
-    position: relative;
   }
 
   .self-description {
     width: 45%;
     height: 146px;
-    position: relative;
     margin: 0 24px 24px 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -848,7 +841,7 @@ body {
   }
 
   .media-list {
-    position: relative;
+    
     width: 30%;
     display: flex;
     flex-direction: row;
@@ -999,7 +992,7 @@ body {
 
   .Cinf {
     display: flex;
-    position: relative;
+    
     justify-content: flex-start;
     margin: 0;
     padding: 0;
@@ -1022,7 +1015,7 @@ body {
     list-style: none;
     width: 55px;
     height: auto;
-    position: relative;
+    
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
